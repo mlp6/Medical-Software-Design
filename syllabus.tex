@@ -1,0 +1,227 @@
+\input{preamble}
+
+\begin{document}
+
+\section*{Class Syllabus}
+
+{\bf Instructor:} Dr. Mark Palmeri \href{mailto:mark.palmeri@duke.edu}{(mark.palmeri@duke.edu)}
+
+{\bf Teaching Assistant:} Brenton Keller\href{mailto:brenton.keller@duke.edu}{(nbb5@duke.edu)}
+
+{\bf Lecture:} Tues/Thurs 08:30--09:40, Fitzpatrick Schiciano B 1466
+
+\subsection*{Course Overview}
+Software plays a critical role in almost all medical devices, spanning device control, feedback and algorithmic processing.  This course focuses on software design skills that are ubiquitous in the medical device industry, including software version control, unit testing, fault tolerance, integration testing and documentation.  Experience will be gained in both dynamically- (Python) and statically-typed (C/C++) languages.  Efficient programming practices for low computational resource devices will be covered.
+
+The course will be structured around several small projects working with biosignals to develop software design fundamentals.  The course will culminate in a larger project working with clinical/research data and/or designing software for a small, embedded device.  Students will be expected to work in small groups.
+
+Prerequisites: Introductory Programming Class (e.g., EGR103)
+
+\section*{Course Objectives}
+\begin{multicols}{2}
+\begin{itemize}
+    \item Define software specifications and constraints
+    \item Device programming fundamentals
+    \begin{itemize}
+        \item Review of data types
+        \item Analog-to-digital / digital-to-analog conversion
+        \item Python (v3.5): numpy, scipy, pandas, scikit
+        \item C/C++
+        \item Simplified Wrapper and Interface Generator (SWIG)
+        \item Data management (variables, references, pointers, ASCII/Unicode/binary data)
+        \item Compilation, make, cmake
+    \end{itemize}
+    \item Software version control (git, GitLab)
+    \item Project management (Redmine)
+    \item Biosignals
+    \begin{itemize}
+        \item Anatomy/physiology review
+        \item Signal transduction
+        \item Noise \& artifacts
+    \end{itemize}
+    \item Signal processing
+    \begin{itemize}
+        \item Convolution \& correlation
+        \item Filtering
+        \item Peak detection
+        \item Envelope detection
+        \item Spectral analysis
+        \item Wavelet analysis
+    \end{itemize}
+    \item Documentation
+    \begin{itemize}
+        \item Docstrings
+        \item Markdown
+        \item Sphinx / Doxygen
+    \end{itemize}
+    \item Testing
+    \begin{itemize}
+        \item Unit testing
+        \item System testing
+        \item Continuous integration (GitLab Runners)
+    \end{itemize}
+    \item Fault tolerance (raising exceptions)
+    \item Resource profiling (cProfile)
+    \item Debugging
+\end{itemize}
+\end{multicols}
+
+\subsection*{Fall Semester Class Schedule} 
+All class activities will be officially listed in the class Sakai site
+calendar.  Specific lecture details, along with deliverable due dates,
+will be posted on this calendar, and new due dates will be announced in lecture
+and by Sakai announcements that will be emailed to the class.  The following is
+a summary of activities this semester (subject to change):
+
+\input{schedule}
+
+\subsection*{Attendance}
+You will be part of a design team, and your participation in group activities
+is essential.  Lecture / lab attendance and participation count for 10\% of
+your class grade.  It is very understandable that students will have to miss
+class / lab for job interviews, personal reasons, illness, etc.  Absences will
+be considered \emph{excused} if they are communicated to Dr. Palmeri at least
+48 hours in advance or through submission of
+\href{http://www.pratt.duke.edu/undergrad/policies/3531}{Short Term Illness
+    Form (STIF)} {\bf before} class or lab.  Unexcused absences will count
+against the attendance and participation component of your class grade.  Peer
+evaluations throughout the semester will also count towards your participation
+grade.
+
+\subsection*{Office Hours}
+Dr. Palmeri will have office hours for an hour after lectures on Tuesdays and
+Thursdays from 14:40--15:40.  Other days / times are always available by
+appointment, and there is an open-door policy active all semester (i.e., if my
+office door is open, then you are welcome to pop in).  Nick and Matt will also
+be available, as needed, to help with all aspects of your projects throughout
+the semester.
+
+\subsection*{Textbooks \& References} 
+There are no required textbooks for this class.  However, given the diverse background of everyone, textbooks may play an essential role in complementing lecture material.  Please consider the following:
+
+\begin{description}
+    \item[Electronics] The Art of Electronics by Horowitz and Hill, Cambridge,
+        Third Edition (ISBN 978-0-521-80926-9) Arduino, then I recommend that
+        you consider looking at Jeremy Blum's
+    \item[Analog \& Digital Circuits] Practical Electronics for Inventors by
+        Scherz and Monk, Third Edition (ISBN 978-0-07-177133-7)
+    \item[Medical Devices] Medical Device Technologies by Baura, Academic Press
+        (ISBN 978-0-12-374976-5)
+    \item[Biomedical Device Design] Design of Biomedical Devices and Systems by
+        King, Fries and Johnson, CRC Press, Third Edition (ISBN
+        978-1-4665-6913-3)
+\end{description}
+
+\subsection*{Electronic Lab Notebooks (ELN)} 
+GitLab will be used to host a single repository for each project that will act
+as the ELN.  Your ELN is one of your primary ways to demonstrate and document
+your entire design process, including brainstorming of design ideas, formal
+engineering analysis to justify your design choices, testing procedures, and
+performance analysis.  It can also serve as a legal document for intellectual
+property, etc.  Your ELN / documentation will account for 20\% of your grade.
+
+Some guidelines for your ELN:
+
+\begin{itemize}
+    \item Block diagrams of the device and submodules in the device should be
+        presented.
+    \item Signal processing and software algorithm logic should be documented,
+        and the associated code should be specifically referenced by the
+        appropriate git commit SHA hash(es).
+    \item Choice of electronic components should be supported by an analysis
+        (when appropriate) that includes considerations such as power,
+        bandwidth, SNR, etc.\ that could impact performance of your device.
+    \item Formal circuit schematics should be drawn and properly annotated for
+        all electronic circuits.
+    \item Component datasheets, user manuals, etc.\ should be included.
+    \item Mechanical drawings, SolidWorks renderings, etc.\ should be included.
+    \item All measurements made during debugging and testing should be recorded
+        with the appropriate precision, units, and estimates of uncertainty.
+        These measurements should be accompanied by a motivation for making
+        them, along with a summary of your interpretation of the data.
+    \item A copy of all reports and slides should be saved.
+    \item All software associated with your device, along with relevant
+        documentation, should be maintained in your group's git repository.  
+    \item Git tags should be used to delineate project milestones.
+\end{itemize}
+
+We will review ELN content in lecture, and your group will receive regular
+feedback.
+
+\subsection*{Distributed Version Control Software (git)} 
+Software management is a ubiquitous issue in any microcontroller engineering
+project, and this task becomes increasingly difficult during group development.
+Version control software has many benefits and uses in software development,
+including preservation of versions during the development process, the ability
+for multiple contributors and reviewers on a project, the ability to tag
+``releases'' of code, and the ability to branch code into different functional
+branches.  We will be using GitLab (\url{https://gitlab.oit.duke.edu}) to
+centrally host our git repositories, with one repository existing for each
+project.  Some guidelines for using your git repositories:
+
+\begin{itemize}
+    \item \emph{All} software additions, modifications, bug-fixes, etc.\ need
+        to be done in your repository.
+    \item The ``Issues'' feature of your repository should be used as a ``to
+        do'' list of software-related items, including feature enhancements,
+        and bugs that are discovered.
+    \item There are several management models that we will review in class,
+        with the major distinctions being individual user forks of the master
+        repository, or a single mutli-write-user repository.  We will review
+        these different management models in class, after which your group
+        should choose one and stick with it.
+    \item Dr. Palmeri will only review code that is committed to your master
+        repository or your personal fork of that repository.  
+    \item All of the commits associated with your repository are logged with
+        your name and a timestamp, and these cannot be modified.  Use
+        descriptive commit messages so that your group members, Dr. Palmeri,
+        Matt Brown and Nick can figure out what you have done!!  You should not
+        need to email group members when you have performed a commit; your
+        commit message(s) should speak for themselves.
+    \item Code milestones should be properly tagged.
+    \item Write software testing routines early in the development process so
+        that anyone in your group or an outsider reviewing your code can be
+        convinced that it is working as intended.
+    \item Comment, comment, comment.
+    \item Modular, modular, modular.
+    \item Make commits small and logical; do them often!
+\end{itemize}
+
+We will review working with git repositories in lecture and lab, and feedback
+on your software repository will be provided on a regular basis.
+
+\subsection*{Project Details} 
+Project details, including budgets, part ordering procedures, etc.\ will be
+detailed in lecture with a separate handout.
+
+\subsection*{Grading} 
+The following grading scheme is subject to change as the semester progresses:
+
+\begin{center}
+\begin{tabular}{ll}
+Attendance \& Participation             & 10\% \\
+ELN / Documentation                     & 20\% \\
+Technical Reports / IRB / IDF           & 20\% \\
+Presentations                           & 20\% \\
+Final Device (Design \& Function)       & 30\% \\
+\end{tabular}
+\end{center}
+
+\emph{\bf Since this is a 2 semester design class, grades will be recorded only
+    after the completion of both semesters!!}
+
+\subsection*{Duke Community Standard \& Academic Honor} Engineering is
+inherently a collaborative field, and in this class, you are encouraged to work
+collaboratively on your projects.  The work that you submit must be the product
+of your and your group's effort and understanding.  All resources developed by
+another person or company, and used in your project, must be properly
+recognized.
+ 
+All students are expected to adhere to all principles of the
+\href{http://www.integrity.duke.edu/standard.html}{Duke Community Standard}.
+Violations of the Duke Community Standard will be referred immediately to the
+Office of Student Conduct.  Please do not hesitate to talk with Dr.\ Palmeri
+about any situations involving academic honor, especially if it is ambiguous
+what should be done.
+
+\end{document}
