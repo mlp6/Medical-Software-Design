@@ -1,0 +1,21 @@
+[user]
+	name = Your Name
+	email = netid@duke.edu
+[alias]
+	co = checkout
+	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+[core]
+	editor = vim
+	autocrlf = input
+	preloadindex = true
+    fileMode = false
+[merge]
+	tool = vimdiff
+[color]
+	status = auto
+	branch = auto
+	interactive = auto
+	diff = auto
+	ui = auto
+[push]
+	default = simple
