@@ -1,0 +1,110 @@
+test_dict = {}
+whos
+dir(test_dict)
+test_dist.keys()
+test_dict.keys()
+test_dict['Will'] = 'wants to download code'
+whos
+test_dict.keys()
+test_dict['Will']
+test_dict['Rachel'] = 'likes to code'
+test_dict.keys()
+def response():
+    print("likes cookies")
+whos
+test_dict['Mark'] = response()
+whos
+test_dict['Mark'}
+test_dict['Mark']
+test_dict['Mark'] = response
+test_dict['Mark']
+a = test_dict['Mark']
+whos
+b = 3
+whos
+dir(b)
+a()
+reponse()
+response()
+whos
+def response():
+    print("likes dogs")
+a()
+whos
+a = test_dict['Mark']
+a()
+test_dict['Mark'] = response
+a = test_dict['Mark']
+a()
+whos
+test_dict[100] = 'grade everyone wants'
+test_dict.keys()
+test_dict['Cody'] = 0.005
+whos
+test_dict.values()
+test_dict[99] = 1
+history
+[x for x in range(0, 9)]
+range(0, 9)
+[x for x in range(2, 9)]
+[x for x in range(2, 9, 2)]
+[x for x in range(2.1, 9.5, 0.1)]
+[x for x in range(2, 9)]
+whos
+[x**2 for x in range(2, 9)]
+c = [x**2 for x in range(2, 9)]
+c
+whos
+for y in c:
+    print(y)
+for y in c:
+    print(y)
+for n, y in enumerate(c):
+    print(n)
+    print(y)
+c = [x**2 for x in range(2, 9)]
+c
+[x for x in range(2, 9)]
+[x for x in range(2, 9) if x > 5]
+[x**2 for x in range(2, 9) if x > 5]
+test_dict
+new = {'Anna': 'is great'}
+new = {'Anna': 'is great', 'Courtney': 'is care free'}
+new
+[k for (k, v) in new]
+[k for k in new]
+[k for k, v in new]
+[k, v for k, v in new]
+new
+[v for v in new.values()]
+[v for v in new.keys()]
+[v for (k, v) in new.items()]
+[k for (k, v) in new.items()]
+[k for (k, v) in new.items()]
+[k+v for (k, v) in new.items()]
+[k+''+v for (k, v) in new.items()]
+[k+' '+v for (k, v) in new.items()]
+new.items()
+[k+' '+v for (k, v) in new.items()]
+[k+' '+v for (k, v) in new.items() if k == "Anna"]
+[v for v in new.values()]
+new.items()
+new.values()
+new.keys()
+[v for v in new.items()]
+[v[0] for v in new.items()]
+[v[1] for v in new.items()]
+new['Anna']
+new['Anna'] = 23.5
+[k+' '+v for (k, v) in new.items() if k == "Anna"]
+[k+v for (k, v) in new.items() if k == "Anna"]
+[v for (k, v) in new.items() if k == "Anna"]
+[k+v for (k, v) in new.items() if k == "Anna"]
+[k for (k, v) in new.items() if k == "Anna"]
+[v for (k, v) in new.items() if k == "Anna"]
+[k+' is ' +str(v) for (k, v) in new.items() if k == "Anna"]
+b = 23.5
+import numpy as np
+v = np.array([23.5])
+history
+%history -f history.txt
