@@ -1,0 +1,95 @@
+\input{preamble}
+
+\begin{document}
+\section*{Final Projects}
+
+{\bf DUE:} Friday, 2016-12-16 at 10:00 PM (when our final exam block time would end)
+
+\begin{itemize}
+
+    \item You will be working in your assigned group.
+        \footnote{\url{https://gitlab.oit.duke.edu/medical-device-software-design/rw_data}}
+        Please create a repository called \verb+project_netid_netid+ (fill
+        in netid of each student member).  Be sure to add Dr.~Palmeri
+        (\verb+mlp6+) and Brenton (\verb+bnk5+) as a Master access-level member.
+
+    \item Use all good git repository management practices that have been promoted all semester.
+
+    \item Create Issues (that are associated with Milestones) for all
+        development tasks on the project, and \textbf{assign a specific group
+        member} to each task.  While this is a group project, each group member
+        will be graded individually based on their contributions to the
+        project, so strive to have even effort distribution, as represented by
+        these issues.  \textbf{Be sure to associate commits with specific issues.}
+
+    \item Use all good python coding practices that have been promoted all
+        semester, including PEP8 style compliance.
+
+    \item \textbf{At least one ``core'' computational aspect of your codebase
+        needs to be implemented in C/C++ and interfaced as an importable module
+        into Python using SWIG.}
+
+    \item Create an annotated tag (\verb+v1.0.0+) of your final version.
+
+    \item Choose one of the following project topics:
+
+    \begin{enumerate}
+        \item Develop software that identifies the P, R and T events on a per-beat basis in an ECG signal.  This software will:
+        \begin{itemize}
+            \item Read in time and voltage data from a Matlab (v5) file over a finite period of time,
+            \item Display/save a plot of the ECG signal with each P, R, and T event indicated,
+            \item Save an output file that stores all of the absolute times for each P, R and T event.
+        \end{itemize}
+        \item Develop software that augments your ultrasound B-mode image generation assignment to:
+        \begin{itemize}
+            \item Have an interactive GUI using either Tkinter or Qt,
+            \item Choose the JSON and binary datafile to load in the GUI,
+            \item Provide the ability for the user to interactively change the logarithmic compression level, TGC, and other layers of image optimization (e.g., histogram equalization) and re-render the image.
+            \item Provide a `Save' option to save a PNG, JPG or TIFF file based on auto-discovery of the file extension.
+        \end{itemize}
+        \item Automated Cervical Cancer Screening Project (please see attached PDF).  This project will involve implementing a Support Vector Machine (SVM), which is greatly facilitated using the \verb+scikit-learn+ package.
+        \item In addition to generating B-mode images, ultrasound can be used to generate M-mode images, where data are acquired at the same location serially through time.  These M-mode data are used to estimate motion at that spatial location through time.  A common application of this is to track the motion of ventricular and septal walls of the heart throughout the cardiac cycle.  You will develop software that:
+        \begin{itemize}
+            \item Reads in metadata in JSON format and RF data from a binary file,
+            \item Estimates the localized motion of cardiac ventricular and septal walls in the M-mode data using RF cross correlation and phase-shift estimates in demodulated IQ data,
+            \item Plots and saves the localized motion in a developer-decided format.
+        \end{itemize}
+        \item Group-defined project.  You are welcome to propose your own project.  Please submit a project proposal to me by email that includes:
+        \begin{itemize}
+            \item Overview of software (clinical application)
+            \item Functional specifications
+            \item Data to be input
+            \item Expected algorithmic implementations
+            \item Data to be output
+        \end{itemize}
+    \end{enumerate}
+
+    \item Test data will be posted for the ECG, B-mode, M-mode and cervical cancer screening projects.
+
+\item Grading criteria:
+\emph{You should approach this final project as an opportunity to show a potential future employer an example of your software development skills.}
+
+\begin{itemize}
+    \item Git Repository
+        \begin{itemize}
+            \item Issues/Milestones [10\%]
+            \item Commits are discrete, logical changesets [10\%]
+            \item Branching \& Merging [5\%]
+        \end{itemize}
+    \item Modular coding [10\%]
+    \item Avoidance of hard-coded variables; robust functional input
+        for algorithmic control. [10\%]
+    \item Full unit test coverage of all functions, with passing CI
+        build\footnote{Dr. Palmeri will enable gitlab runner for your
+        repository.} [20\%]
+    \item Logging: INFO, DEBUG, ERROR [10\%]
+    \item Sphinx documentation for each module/function [10\%]
+    \item Handle and raise exceptions [5\%]
+    \item Functionality [10\%]
+\end{itemize}
+
+\end{itemize}
+
+\end{document}
+
+

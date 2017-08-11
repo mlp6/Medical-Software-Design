@@ -1,0 +1,111 @@
+\input{preamble}
+
+\begin{document}
+\section*{Assignment \#5: B-mode Ultrasound Imaging}
+
+{\bf DUE:} Sunday, 2016-11-20 at midnight.
+
+\begin{itemize}
+
+    \item You will be working in your assigned group.
+        \footnote{\url{https://gitlab.oit.duke.edu/medical-device-software-design/rw_data}}
+        Please create a repository called \verb+ultrasound_netid_netid+ (fill
+        in netid of each student member).  Be sure to add Dr.~Palmeri
+        (\verb+mlp6+) as a Master access-level member.
+
+    \item Use all good git repository management practices that have been promoted all semester.
+
+    \item Create Issues (that are associated with Milestones) for all
+        development tasks on the project, and \textbf{assign a specific group
+        member} to each task.  While this is a group project, each group member
+        will be graded individually based on their contributions to the
+        project, so strive to have even effort distribution, as represented by
+        these issues.  \textbf{Be sure to associate commits with specific issues.}
+
+    \item Use all good python coding practices that have been promoted all
+        semester, including PEP8 style compliance.
+
+    \item Your group will be developing code to process raw, radiofrequency
+        (RF) ultrasound data from a linear array.  The ultrasound physics and
+        image formation procedures will be reviewed during lecture.  Your code
+        will need to do the following to generate a B-mode ultrasound image:
+
+        \begin{itemize}
+            
+            \item Data acquisition metadata will be stored in a JSON text file.
+                The specific parameters that will be available include:
+                \begin{itemize}
+                    \item \verb+fs+: sampling frequency (Hz)
+                    \item \verb+c+: sound speed (m/s)
+                    \item \verb+axial_samples+: number of samples in depth
+                    \item \verb+num_beams+: number of lateral beams
+                    \item \verb+beam_spacing+: spacing between lateral beams (m)
+                \end{itemize}
+
+                Your code should accept an input argument for the JSON
+                filename, with a default of \verb+bmode.json+.
+
+            \item The RF data will be serially stored as \verb+int16+ binary
+                data ordered as samples from shallow to deep for a single beam,
+                followed by subsequent lateral beams from left-to-right in the
+                image.   Your code should accept an input argument for the RF
+                binary filename, with a default of \verb+rfdat.bin+.
+
+            \item B-mode image formation will involve the steps of envelope
+                detection and logarithmic compression discussed in lecture.
+
+            \item Your code should provide an option to either:
+                \begin{itemize} 
+                    \item Render a B-mode image using \verb+matplotlib+ with
+                        axial and lateral dimensions labeled in meters.  This
+                        should be done with a \verb+--display+ Boolean input
+                        argument that is \verb+False+ by default.
+
+                    \item Save a PNG file of the B-mode image, with the user
+                        able to input a desired filename, with a default of
+                        \verb+bmode.png+.  This should be done with a
+                        \verb+--save+ Boolean input argument that is
+                        \verb+True+ by default.
+
+                    \item These options should not be exclusive of one another
+                        (i.e., the user can choose to do both).  
+                \end{itemize}
+
+        \end{itemize}
+    \item Create an annotated tag (\verb+v1.0.0+) of your final version.
+
+\newpage
+
+
+\item Grading criteria:
+\begin{itemize}
+    \item Git Repository
+        \begin{itemize}
+            \item Issues/Milestones [10\%]
+            \item Commits are discrete, logical changesets [10\%]
+            \item Branching \& Merging [5\%]
+        \end{itemize}
+    \item Modular coding
+        \begin{itemize}
+            \item Separate modules for JSON reading, binary reading, envelope
+                detection, logarithmic compression, image display, image
+                saving. [10\%]
+            \item Avoidance of hard-coded variables; robust functional input
+                for algorithmic control. [10\%]
+        \end{itemize}
+    \item Full unit test coverage of all functions, with passing CI
+        build\footnote{Dr. Palmeri will enable gitlab runner for your
+        repository.} [20\%]
+    \item Logging: INFO, DEBUG, ERROR [10\%]
+    \item Sphinx documentation for each module/function [10\%]
+    \item Handle and raise exceptions [5\%]
+    \item Functionality [10\%]
+\end{itemize}
+
+\item Test JSON and binary image data are available in:\\
+      \url{https://gitlab.oit.duke.edu/medical-device-software-design/bmode_ultrasound}.
+\end{itemize}
+
+\end{document}
+
+
