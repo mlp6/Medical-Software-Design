@@ -1,0 +1,16 @@
+test:pytest:
+    image: continuumio/anaconda3
+    script: 
+    - apt-get install -y build-essential swig
+    - make
+    - py.test -v 
+
+test:gtest:
+    image: fedora:24
+    script: 
+    - dnf install -y gcc-c++ make gtest gtest-devel swig python3-devel python3-pip
+    - ln -s /usr /opt/conda
+    #- pip3 install -r requirements.txt
+    - make
+    - make test
+    - ./test
