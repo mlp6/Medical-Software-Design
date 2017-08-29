@@ -25,6 +25,7 @@ Who are we?
 ![Fx](fx.jpg)
 ![PatellaWires](patella_wires.jpg)
 ![AveryZiva](dogs.jpg)
+![FatBike](bigjob.jpg)
 
 * [Suyash Kumar](http://suyashkumar.com/)
   + Duke BME/CS (2012--2016)
