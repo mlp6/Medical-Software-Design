@@ -12,12 +12,12 @@ Comments from Last Lecture
 Groups
 ------
 1. Mounika, Tim, Caleb
-2. Niranjana, Inje, Jingrui
+2. Niranjana, Inje, Jing
 3. Gina, Leo, Blake
 4. Sameer, Alice, Ben
 5. Sonali, Jawad, Yasha
 6. Emelina, Julia, Pablo
-7. Matthew, Joseph, [Serge]
+7. Hala, Joseph, [Serge]
 8. Garren, Ryan, Nisarg
 9. Brianna, Daniel, Samuel
 
