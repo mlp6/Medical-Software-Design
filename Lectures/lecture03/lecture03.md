@@ -37,3 +37,4 @@ Next Lecture
 ------------
 * Implement Travis CI on your repository.
 * Write a similar number subtraction method, imposing Travis CI passage before merging a Pull Request into master.
+* What happens if your functions receive non-number inputs?
