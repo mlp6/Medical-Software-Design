@@ -1,9 +1,9 @@
-# Lecture 04: Python Fundamentals and Continious Integration
+# Lecture 04: Python Fundamentals and Continuous Integration
 
 ## Objectives
 - Review anaconda and vanilla python setup
 - Review virtual environments and their purpose 
-- Explanation and example of continious integration configuration
+- Explanation and example of continuous integration configuration
 - Types and exceptions in python (time permitting)
 - Complete group excercise from last lecture with unit testing 
 
@@ -16,7 +16,7 @@ Check [here](pip-and-conda-install.md) for a review on how to get anaconda and p
 
 When you deactivate this environment and switch to another project, that project's dependencies (at their particular versions) will be made "active" and available for use. You could have the same package used in two different projects at two different versions without a problem because of the encapsulations that environments bring. 
 
-## Continious Integration (CI)
+## Continuous Integration (CI)
 - All code is automatically tested when pushed up to the remote.
 - CI can block pull request merging into master
 - CI can also automatically deploy code to production if all safety checks are met
