@@ -52,7 +52,7 @@ If a path is returned to a `conda` program, you are all set to go. If you get so
 
 To fix this error on windows, find the install location of anaconda. There should be an `Anaconda3` folder in your user directory. Note the path down for this. Then create a `.bashrc` file in your home directory (`vim ~/.bashrc`) and put the following line in:
 ```
-export PATH=/c/[YOUR PATH TO Anaconda3 folder here]/Scripts
+export PATH=/c/[YOUR PATH TO Anaconda3 folder here]/Scripts:$PATH
 ```
 Then in the terminal type `source ~/.bashrc` and you should be good to go.
 
