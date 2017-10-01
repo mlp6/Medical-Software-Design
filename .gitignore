@@ -6,3 +6,4 @@
 .cache
 *.synctex.*
 .ipynb_checkpoints
+.DS_Store
