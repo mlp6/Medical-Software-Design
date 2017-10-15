@@ -1,6 +1,15 @@
 ## Python & pip setup
 
-Download and install python from [here](https://www.python.org/downloads/). Then make sure you have the most up to date pip:
+Download and install python from [here](https://www.python.org/downloads/) (We currently recommend python 3.6.x.). 
+
+You need to make sure that `python` and `pip` are available as executable commands from your command line environment.  This will typically involve appending the path to your python executables to your `PATH` environmental variable.  One common way this is done in a bash shell enviroment is to add the following line to your `$HOME/.bashrc` file:
+```
+export PATH=/path/to/python/bin/:$PATH
+```
+:warning: Do not forget the `$PATH` at the end; this makes sure that all of your previous executable paths are still accessible!
+
+
+Then make sure you have the most up to date pip:
 
 For Mac/Linux:
 ```
@@ -36,6 +45,9 @@ Then run
 pip install -r requirements.txt
 ```
 to install those requirements in the currently activated virtual environment.
+
+*Note: Windows machines can have difficulty installing packages like* `numpy` *that require access to C and Fortran compilers in your local system.  For that reason, you may want to use the Anaconda Setup below for Windows setups.*
+
 
 ## Anaconda Setup
 
