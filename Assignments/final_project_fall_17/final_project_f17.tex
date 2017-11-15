@@ -1,0 +1,88 @@
+\input{preamble}
+\usepackage{hyperref}
+
+\begin{document}
+
+\section*{Final Projects}
+{\bf Final project DUE:} Thursday, 12/14/2017 12:00PM EST (when our final exam block time would end) \\
+{\bf RFC Draft DUE:} 11/21/2017 11:59PM EST 
+
+\subsection*{Overview}
+The final project in this class will require your team to leverage the industry-standard skills you've learned over this semester to design and implement a software system to acquire a signal, classify it using a cloud-based web service that you build (using deep learning or other machine learning approaches), and display the performance and outcomes of your system. This final project is somewhat open-ended to allow groups to tailor this to their areas of interest, however recommended datasets and project requirements are provided below. 
+
+If you plan to stray away from the recommended projects and datasets, please submit a one-page project proposal to Dr. Palmeri and Mr. Kumar by {\bf 11/17/17} for evaluation to ensure the proposed project meets the requirements for the class. Be sure to include motivations, technologies, functional specifications, and anticipated deliverables.
+
+It is expected that your team will follow proper professional software development and design conventions taught in this class (git feature-branch workflow, continuous integration, unit testing, PEP8, etc. as detailed in sections below). At minimum, your system will be comprised of:
+
+\begin{itemize}
+	\item A client device (the Raspberry Pi or equivalent) that will acquire a signal (image, biometric, etc), perform necessary preprocessing steps, and then issue a RESTful API request to your cloud service for further processing.
+	\item A cloud-based web service that exposes a well-crafted RESTful API that will implement a statistical or machine learning model to classify the signal into a labeled bucket (for example, high/low cancer risk). If the project merits it, a database should be used for storing persistent application data.
+\end{itemize}
+
+\subsubsection*{Deliverables}
+\begin{itemize}
+	\item Final 1-2 page writeup describing the final performance and state of your project (including and statistical measurements of model accuracy)
+	\item Demonstration video
+	\item All project code (in the form of a tagged github repository)
+	\item Link to deployed web service 
+	\item Any hardware block diagrams, circuit schematics, etc.
+	\item Final RFC
+\end{itemize}
+
+\subsection*{Engineering Design Document}
+As discussed in class, before you start implementing your project, you and your team will be expected to flesh out a request for comments (RFC) document that will document the design, architecture, APIs, and edge cases for your system in advance. This document is traditionally reviewed (and commented on) by your colleagues in industry, and will be thoroughly reviewed by course instructors and TAs in this class. You and your team should also thoroughly review the RFC to ensure everyone is on the same page about what is going to be built (and in what way using what technologies, etc). 
+
+You can find the Engineering RFC template at \underline{\href{http://rfc.suyash.io}{rfc.suyash.io}}.
+
+\subsection*{Recommended Projects \& Datasets}
+\subsubsection*{Melanoma or Not: Classification of Skin Lesions}
+Melanomas are readily treatable if caught early, with a 98\% 5-year survival rate when treated with simple excision. The goal of this project is to develop a device that captures an image of a skin lesion and determines the likelihood that the lesion is melanocytic (and potentially whether it is malignant). Over 13000 annotated skin lesion images are available from the International Skin Imaging Collaboration (ISIC) project that can be used to develop machine learning models to classify new images. This dataset can be accessed \underline{\href{https://isic-archive.com}{here}}. A zip of all annotated images can be downloaded by navigating to the Gallery and then clicking "Download as Zip" in the upper right hand corner. All data can also be accessed through a RESTful API provided by the ISIC.
+
+For this project, you may wish to entertain certain image preprocessing tasks such as lesion image segmentation, edge detection, and other signal processing techniques you believe may enhance your signal.
+
+\subsubsection*{ECG Analysis}
+PhysioNet hosts a multitude of annotated \underline{\href{https://physionet.org/physiobank/database/\#ecg}{ECG recordings}}. Your Raspberry Pi should be able to either receive analog input from an actual ECG circuit you build or from files on a USB drive. The backend web service should predict some annotation (for example, presence of a specific arrhythmia) given an input signal. For example, with the following \underline{\href{https://www.physionet.org/physiobank/database/apnea-ecg/}{dataset}}, you may be able to diagnose sleep apnea given an input ECG trace.
+
+\subsubsection*{Other Datasets}
+\begin{enumerate}
+	\item \href{http://www.vision.caltech.edu/Image_Datasets/Caltech101/}{http://www.vision.caltech.edu/Image\_Datasets/Caltech101/}
+	\item \href{https://www.cs.toronto.edu/~kriz/cifar.html}{https://www.cs.toronto.edu/~kriz/cifar.html}
+	\item \href{https://github.com/beamandrew/medical-data}{https://github.com/beamandrew/medical-data}
+\end{enumerate} 
+
+\subsection*{Grading}
+\emph{You should approach this final project as an opportunity to show a potential future employer an example of your software development skills.}
+\begin{itemize}
+\item RFC Document
+\item Git Repository
+	\begin{itemize}
+		\item Issues/Milestones
+		\item Commits are discrete, logical changesets
+		\item Feature-branch workflow
+	\end{itemize}
+\item Software best practices
+	\begin{itemize}
+		\item Modularity of software code
+		\item Handling and raising exceptions
+		\item Language convention and style (PEP8)
+		\item Sphinx documentation for all modules/functions
+	\end{itemize}
+\item Testing and CI
+	\begin{itemize}
+		\item Unit test coverage of all functions (except Flask handler)
+		\item Travis CI passing build
+	\end{itemize}
+\item Cloud-based Web Service
+	\begin{itemize}
+		\item RESTful API Design 
+		\item Validation Logic 
+		\item Robust deployment on Virtual Machine 
+		\item Machine learning functionality 
+	\end{itemize}
+\item Client software and hardware functionality (running on a Raspberry Pi or equivalent)
+\item Demo of the final working project
+
+\end{itemize}
+
+\end{document}
+
