@@ -7,3 +7,5 @@
 *.synctex.*
 .ipynb_checkpoints
 .DS_Store
+*.fls
+*.fdb_latexmk
