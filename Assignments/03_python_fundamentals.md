@@ -10,16 +10,22 @@
 * We are going to use a Jupyer notebook for the first part of this assignment.
 
 ## Exploring Python Syntax
-* Clone this repository (or fork is you might want to submit a Pull Request
-  with changes at some point): https://github.com/mlp6/Medical-Software-Design
+* Fork this repository: https://github.com/mlp6/Medical-Software-Design
+* Create a branch on your local clone of the forker repository called:
+  `$NEDIT/PythonFundamentals01` (the specific name is very important!)
 * Create a local virtual environment with the packages in `requirements.txt`.
 * Activate your virtual environment.
-* Change into the `Assignments` directory and run `jupyter notebook
+* Change into the `Assignments/` directory and run `jupyter notebook
   PythonFundamentals.ipynb`.  You will be prompted to launch a web browser that
   has an address that starts with `127.0.0.1` or `localhost`; your web browser
   might automatically be launched with this page too.
 * Work through the interactive notebook exercise.
-* Render a PDF of your completed notebook and attach it to your Sakai assignment.
+* Commit your completed notebook, and submit a Pull Request to `mlp6` and
+  `suyashkumar` with the title `Python Fundamentals ($NETID)`.  Note - your Pull
+  Request will be used to evaluate your notebook, but ultimately will be closed
+  without merging it back in.
+* If you find any errors in the notebook, please submit an Issue in the `mlp6`
+  version of the repository.
 
 ## Mini-project
 * We are going to start putting your `git` and `python` skills to use!
@@ -45,4 +51,5 @@
     `$NETID.json` file).
 * Submit a Pull Request that has your modular code, along with `everyone.csv`
   and all of the `$NETID.json` files, and assign `suyashkumar` and `mlp6` as
-  Reviewers.
+  Reviewers.  As with above, the Pull Request will not be merged in, but will
+  be used to evaluate your code, with feedback being given as a "Code Review".
