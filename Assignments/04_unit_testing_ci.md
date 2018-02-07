@@ -8,7 +8,7 @@
   merging pull request.
 
 ## Exercise
-* Create a new repository in GitHub:Duke-BME-Design with the name: `$TEAMNAME_testing'
+* Create a new repository in [GitHub:Duke-BME-Design](https://github.com/Duke-BME-Design/) with the name: `$TEAMNAME_testing'
 * Make sure that all team members are Collaborators for the repository, along
   with with the instructors and TAs.  One way to expedite this process for this
   and future project repositories would be to create a `CODEOWNERS` file:
