@@ -5,8 +5,6 @@ Lecture Objectives
 -------------------
 * Introductions
 * Syllabus Review
-* Project Overview
-* Git Demo
 
 Who are we?
 -----------
@@ -29,7 +27,7 @@ Who are we?
 
 * [Suyash Kumar](http://suyashkumar.com/)
   + Duke BME/CS (2012--2016)
-  + [kelaHealth](http://kelahealth.com/) CTO and Co-Founder
+  + [MicroElastic Ultrasound](http://microelastic.com/) CTO
   + Uber software engineer
   + Software lead on Duke's [POCkeT Colposcope](https://www.pocketcolposcope.com/) & other projects
   + Lifelong hacker
@@ -45,17 +43,3 @@ Who are you?
 
 Syllabus Review
 ---------------
-
-Project Overview
-----------------
-
-Git Demo
---------
-
-Next Steps
----------
-* Index cards
-  + What languages are you proficient in?
-  + What languages do you hope to learn before you graduate?
-  + 2 group members you would (not) like to work with
-* Assignment 01
