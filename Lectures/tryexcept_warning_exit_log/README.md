@@ -1,5 +1,4 @@
-Try/Except[/Finally], Warnings, Exit Codes, Logging
-===================================================
+# Try/Except[/Finally], Warnings, Exit Codes, Logging
 
 Making our code more robust...
 
@@ -8,8 +7,7 @@ There are two primary types of python "errors":
 1. Syntax Errors
 2. Exceptions
 
-Syntax Errors
--------------
+## Syntax Errors
 
 Syntax errors violate the coding syntax, meaning that python cannot interpret you code.  For example:
 
@@ -27,8 +25,7 @@ SyntaxError: Missing parentheses in call to 'print'
 
 The arrow points to where the syntax is invalid, and the error message [attempts to] convey what is wrong.
 
-Exceptions
-----------
+## Exceptions
 
 In contrast, Exceptions are raised when you have valid syntax, but an error occurs when your command attempts to run.  For example:
 
@@ -53,16 +50,14 @@ Other common exception errors are:
 
 There is a comprehensive list of built-in exceptions here: https://docs.python.org/3/library/exceptions.html
 
-How do we deal with exceptions gracefully?
-------------------------------------------
+## How do we deal with exceptions gracefully?
 Syntax errors are caught and corrected with our unit tests and development testing, but exceptions can happen during device function.  We don't want our code to abruptly stop when an exception occurs, but instead, we want a planned procedure to deal with exceptions.
 
 ``try/except`` allows us to "try" to execute a segment of code, and if an exception is raised, then the "except" code is executed, and our "excepts" can be tailored to the specific exception error.
 
 See ``example_try_except.py``.
 
-Pseudo-code example for running out of storage space
-----------------------------------------------------
+## Pseudo-code example for running out of storage space
 
 ```
 def main():
@@ -83,18 +78,15 @@ def main():
 ```
 
 
-Warnings
---------
+## Warnings
 Items that require some user attention, but do not demand raising a full exception.  The ``warnings`` package provides this functionality.
 
-Errors that Demand Termination
--------------------------------
+## Errors that Demand Termination
 ``sys.exit()`` is the most common way to terminate program execution, and it is most useful to provide a returned exit status to indicate why termination occurred.
 
 There is a dedicate module to system error symbols: https://docs.python.org/3/library/errno.html
 
-Logging
--------
+## Logging
 Device logs can be invaluable to confirm expected performance and to help debug when things go wrong.  Python has a ``logging`` module that provides rich functionality.  Logs can be kepy at varying "levels"; more verbose logs can provide more information, but at the expense of being much larger and more difficuly to parse.  Logs typically have more verbose debugging modes compared to less descriptive runtime modes.
 
 Standard levels in the logging module include:
