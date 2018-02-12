@@ -12,56 +12,56 @@ progress, severe weather days, etc.  Please check back regularly.
 
 <tr>
 <td>Fri Jan 12</td>
-<td>Class Introduction, Objectives and Logistics [MLP]</td>
-<td>[01] Git(Hub), Python Install</td>
+<td><a href="Lectures/FirstDayClass/lecture01.md">Class Introduction, Objectives and Logistics</a></td>
+<td><a href="Assignments/01_tool_setup_git_fundamentals.md">[01] Setup Course Tools & Git Fundamentals</a></td>
 </tr>
 
 <tr>
 <td>Wed Jan 17</td>
-<td>Git: Repo Setup, Issues, Branching, Pushing/Pulling [MLP]</td>
+<td>Class Cancelled (Severe Weather)</td>
 <td></td>
 </tr>
 
 <tr>
 <td>Fri Jan 19</td>
-<td>Python syntax, virtualenv (pip), Unit Testing [MLP]</td>
-<td>[02] Python Fundamentals</td>
+<td>Class Cancelled (Severe Weather)</td>
+<td></td>
 </tr>
 
 <tr>
 <td>Wed Jan 24</td>
-<td>Travis CI, Python Exception Handling & Logging [MLP]</td>
+<td><a href="Lectures/GitFundamentals.md">Git: Repo Setup, Cloning/Forking, Issues, Branching, Pushing/Pulling</a></td>
 <td></td>
 </tr>
 
 <tr>
 <td>Fri Jan 26</td> 
-<td>Python: Dictionaries, Numpy Arrays, Binary Data, Docstrings [MLP]</td>
-<td>[03]</td>
+<td><a href="Lectures/GitWorkflow.md">Git Workflow</a></td>
+<td><a href="Assignments/02_team_assignment.md">[02] Git Practice: Team Assignment</a></td>
 </tr>
 
 <tr>
 <td>Wed Jan 31</td>
-<td>Classes: Encapsulation & Composition [MLP]</td>
-<td></td>
+<td><a href="Lectures/PythonFundamentals.md">Python Fundamentals</a></td>
+<td><a href="Assignments/03_python_fundamentals.md">[03] Python Fundamentals</a></td>
 </tr>
 
 <tr>
 <td>Fri Feb 02</td>
-<td>Data Types, APIs & JSON [MLP]</td>
-<td>[04] Documentation</td>
+<td><a href="Lectures/PythonDataStructures.md">Python: Data Structures</a></td>
+<td></td>
 </tr>
 
 <tr>
 <td>Wed Feb 07</td>
-<td>Python: Read/Writing Data (CSV, JSON, HDF5, MATv5) [MLP]</td>
-<td></td>
+<td><a href="Lectures/UnitTestingCI.md">Python: Unit Testing (py.test) & Continuous Integration (Travis CI)</a></td>
+<td><a href="Assignments/04_unit_testing_ci.md">[04] Unit Testing & Continuous Integration (Travis CI)</a></td>
 </tr>
 
 <tr>
 <td>Fri Feb 09</td>
-<td>TBD & A05: Heart Rate Monitor</td>
-<td></td>
+<td>Python: Docstrings, Exceptions & Logging</td>
+<td><a href="Assignments/05_docstrings_exceptions.md">[05] Docstrings, Exceptions & Logging</a></td>
 </tr>
 
 <tr>
