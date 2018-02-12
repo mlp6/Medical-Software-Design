@@ -93,8 +93,10 @@ grade.
 
 ## Textbooks & References
 There are no required textbooks for this class.  A variety of online resources
-will be referenced throughout the semester.  A great resource for an overview
-of Python: https://github.com/jakevdp/WhirlwindTourOfPython
+will be referenced throughout the semester.  A few great resources for an overview
+of Python: 
+* [Whirlwind Tour of Python](https://github.com/jakevdp/WhirlwindTourOfPython)
+* [Intermediate Python](http://book.pythontips.com/en/latest/index.html)
 
 ## Project Details
 Project details will be discussed in lecture throughout the semester.
