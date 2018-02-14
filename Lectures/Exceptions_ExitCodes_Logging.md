@@ -55,7 +55,7 @@ Syntax errors are caught and corrected with our unit tests and development testi
 
 ``try/except`` allows us to "try" to execute a segment of code, and if an exception is raised, then the "except" code is executed, and our "excepts" can be tailored to the specific exception error.
 
-See ``example_try_except.py``.
+Example code:  [example_try_except.py](example_try_except.py)
 
 ## Pseudo-code example for running out of storage space
 
@@ -86,6 +86,8 @@ Items that require some user attention, but do not demand raising a full excepti
 
 There is a dedicate module to system error symbols: https://docs.python.org/3/library/errno.html
 
+Example code: [example_warning_exit.py](example_warning_exit.py)
+
 ## Logging
 Device logs can be invaluable to confirm expected performance and to help debug when things go wrong.  Python has a ``logging`` module that provides rich functionality.  Logs can be kepy at varying "levels"; more verbose logs can provide more information, but at the expense of being much larger and more difficuly to parse.  Logs typically have more verbose debugging modes compared to less descriptive runtime modes.
 
@@ -97,3 +99,5 @@ Standard levels in the logging module include:
 * CRITICAL
 
 https://docs.python.org/3/howto/logging.html#logging-basic-tutorial
+
+Example code: [example_logging.py](example_logging.py)

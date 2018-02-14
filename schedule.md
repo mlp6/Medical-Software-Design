@@ -60,19 +60,19 @@ progress, severe weather days, etc.  Please check back regularly.
 
 <tr>
 <td>Fri Feb 09</td>
-<td>Python: Docstrings, Exceptions & Logging</td>
+<td>Python: Docstrings, <a href="Lectures/Exceptions_ExitCodes_Logging.md">Exceptions & Logging</a></td>
 <td><a href="Assignments/05_docstrings_exceptions.md">[05] Docstrings, Exceptions & Logging</a></td>
 </tr>
 
 <tr>
 <td>Wed Feb 14</td>
-<td>TBD</td>
-<td>TBD</td>
+<td><a href="Lectures/ArgparseSubmodulesPackages.md">Argparse, Submodules & Packages</a></td>
+<td></td>
 </tr>
 <tr>
 <td>Fri Feb 16</td>
-<td>TBD</td>
-<td>TBD</td>
+<td>Object Oriented Programming</td>
+<td><a href"Assignments/06_object_oriented_programming.md">[06] Object Oriented Programming</a></td>
 </tr>
 
 <tr>
@@ -89,25 +89,25 @@ progress, severe weather days, etc.  Please check back regularly.
 
 <tr>
 <td>Wed Feb 28</td>
-<td>Intro to Web Services \& cloud-connected devices [SK]</td>
+<td>Intro to Web Services & Cloud-connected Devices</td>
 <td></td>
 </tr>
 
 <tr>
 <td>Fri Mar 02</td>
-<td>Python Flask, API design, virtual machines (AWS, GCP) [SK]</td>
+<td>Python Flask, API design, virtual machines (AWS, GCP)</td>
 <td>[06] Basic Flask Web Service</td>
 </tr>
 
 <tr>
 <td>Wed Mar 07</td>
-<td>Microservices, Docker, Flask cont'd [SK]</td>
+<td>Microservices, Docker, Flask cont'd</td>
 <td></td>
 </tr>
 
 <tr>
 <td>Fri Mar 09</td>
-<td>Introduction to Databases [SK]</td>
+<td>Introduction to Databases</td>
 <td>[07] Docker Server</td>
 </tr>
 

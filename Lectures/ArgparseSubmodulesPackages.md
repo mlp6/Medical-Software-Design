@@ -1,17 +1,14 @@
-Argument Passing, Submodules, Package Installation, & Sphinx
-============================================================
+# Argument Passing, Submodules, & Package Installation
 
-Make your code more flexible
-----------------------------
+## Make your code more flexible
 * argparse
   + datatypes
   + default values
   + help
 
-* see history of this repository for intermediate forms of argparse usage
+* Example: [argparse_demo.py](argparse_demo.py)
 
-Repositories within respositories
----------------------------------
+## Repositories within respositories
 
 * ``git submodule``
   + clone a repository within a repository
@@ -29,18 +26,16 @@ Repositories within respositories
   + more complicated initial syntax
   + More to read: http://blogs.atlassian.com/2013/05/alternatives-to-git-submodule-git-subtree/
 
-Installing external packages
-----------------------------
+## Installing external packages
 
-* ``conda`` (what Anaconda3 uses)
 * ``pip``
   + Python Package Index
   + can take a snapshot of all packages that you need with ``pip freeze > requirements.txt``
   + package environment can be created using ``pip install -r requirements.txt``
   + commonly used to create virtual environments for testing and rapid deployment
+* ``conda`` (what Anaconda3 uses)
 
-Packaging your code to distribute
----------------------------------
+## Packaging your code to distribute
 * ``__init__.py`` in all relevant directories, *except* test directories
 * ``setup.py``
 
@@ -57,9 +52,9 @@ setup(name='bme590assignment02',
       install_requires=['peakutils', 'bitstring'])
 ```
 
-Finding an arbitrary package
-----------------------------
-* Define ``PYTHONPATH`` (environmental variable)
+## Finding an arbitrary package
+* Define ``PYTHONPATH`` (environmental variable).  This can be done
+  "on-the-fly" or for your entire session.
 * You can check what your PYTHONPATH has defined with the command: ``echo $PYTHONPATH``
 * You can add paths to code in ``PyCharm -> Settings -> Project Interpreter``
 * Manually add relative[|absolute] path
@@ -69,33 +64,3 @@ import sys
 import os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__))+ '/../somedir/')
 ```
-
-Building Documentation with Sphinx
-----------------------------------
-Sphinx (http://sphinx-doc.org/) is a documentation generation engine for Python
-that is extremely powerful and lots of configuration options.  Here's a quick
-start to automatically generate API-like documentation using docstrings:
-
-1. ``sphinx-quickstart``
-
-I prefer to create a distinct subdirectory (``docs/``) that contains all documentation.
-
-2. There are lots of options that you will be walked through... defaults are usually okay, but be sure to select 'y' for the ``autodoc`` option.
-
-3. add path to ``docs/conf.py``:
-
-```
-sys.path.insert(0, os.path.abspath('..'))
-```
-There is a similar path commented out near the header that you can uncomment and edit, along with the 2 import statements of the ``os`` and ``sys`` modules.
-
-
-4. Run ``sphinx-apidoc -o docs .`` from the root level of your project (this will sweep through all of the ``*.py`` files in ``.`` and create corresponding ``*.rst`` files in ``docs/``)
-
-5. ``docs/index.rst`` -> add modules that you'd like included in the documentation
-  * Make sure that your docstring have a blank link before the rst :param: and :returns: lines.
-  * Make sure to indent your file entries!!  Failure to indent will cause the rst-parser to "miss" your files.
-  * You may want to add ``_build/`` to your ``.gitignore`` files:
-
-6. Run Makefile to generate documentation (e.g., ``make html``).  This will create ``docs/_build/html`` with the default webpage being ``index.html``.
-

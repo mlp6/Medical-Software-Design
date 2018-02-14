@@ -1,3 +1,0 @@
-ERROR:root:div by 0, skipping this iteration
-ERROR:root:div by 0, skipping this iteration
-ERROR:root:div by 0, skipping this iteration
