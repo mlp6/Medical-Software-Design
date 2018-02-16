@@ -77,14 +77,14 @@ progress, severe weather days, etc.  Please check back regularly.
 
 <tr>
 <td>Wed Feb 21</td>
-<td>TBD</td>
-<td>TBD</td>
+<td>Assignment Work Time</td>
+<td></td>
 </tr>
 
 <tr>
 <td>Fri Feb 23</td>
-<td>TBD</td>
-<td>TBD</td>
+<td>Assignment Work Time</td>
+<td><a href="Assignments/HeartRateMonitor/HeartRateMonitor.md">[07] Heart Rate Monitor</a></td>
 </tr>
 
 <tr>
