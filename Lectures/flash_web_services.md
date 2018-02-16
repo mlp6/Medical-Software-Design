@@ -1,5 +1,7 @@
-# Lecture 15 - Build Flask Web Services
-In this lecture we'll learn how to leverage the [flask](http://flask.pocoo.org/) framework to create a web service that serves some RESTful API routes. 
+# Build Flask Web Services
+In this lecture we'll learn how to leverage the
+[flask](http://flask.pocoo.org/) framework to create a web service that serves
+some RESTful API routes. 
 
 ## In-Class Assignment
 Build a web service that implements the following API routes.
@@ -20,4 +22,6 @@ Build a web service that implements the following API routes.
     "b": <some number>
   }
   ```
-  Return the sum and status code 200 for a successful calculation. If not successful (b/c of validation) return the proper error [status code](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes).
+  Return the sum and status code 200 for a successful calculation. If not
+  successful (b/c of validation) return the proper error [status
+  code](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes).
