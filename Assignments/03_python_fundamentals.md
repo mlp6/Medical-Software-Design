@@ -12,7 +12,7 @@
 ## Exploring Python Syntax
 * Fork this repository: https://github.com/mlp6/Medical-Software-Design
 * Create a branch on your local clone of the forker repository called:
-  `$NEDIT/PythonFundamentals01` (the specific name is very important!)
+  `$NETID/PythonFundamentals01` (the specific name is very important!)
 * Create a local virtual environment with the packages in `requirements.txt`.
 * Activate your virtual environment.
 * Change into the `Assignments/` directory and run `jupyter notebook
