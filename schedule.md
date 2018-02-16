@@ -71,8 +71,8 @@ progress, severe weather days, etc.  Please check back regularly.
 </tr>
 <tr>
 <td>Fri Feb 16</td>
-<td>Object Oriented Programming</td>
-<td><a href"Assignments/06_object_oriented_programming.md">[06] Object Oriented Programming</a></td>
+<td><a href="Lectures/OOP/PythonClasses.ipynb">Object Oriented Programming</a></td>
+<td><a href="Assignments/06_module_class.md">[06] Convert Module to Class</a></td>
 </tr>
 
 <tr>
