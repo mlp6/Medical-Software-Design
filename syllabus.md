@@ -7,16 +7,16 @@ Office Hours: https://calendly.com/mark-palmeri
 
 Suyash Kumar, Uber Software Engineer, Web Guru, Deep Learning Master  
 <suyash.kumar@duke.edu>  
-Office Hours: Friday after class
+Office Hours: Friday after class (266 Hudson Hall Annex)
 
 ## Teaching Assistants
 Arjun Desai  
 <arjun.desai@duke.edu>  
-Office Hours: 11:30-12:30 Teer Basement
+Office Hours: Monday 11:30-12:30 (Teer Basement)
 
 Nisarg Shah  
 <nisarg.shah@duke.edu>  
-Office Hours: Email
+Office Hours: Wednesday 14:00-15:00 (Teer Basement)
 
 ## Lecture
 Wed/Fri 11:45--13:00  
