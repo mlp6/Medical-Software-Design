@@ -77,7 +77,7 @@ progress, severe weather days, etc.  Please check back regularly.
 
 <tr>
 <td>Wed Feb 21</td>
-<td>Assignment Work Time</td>
+<td><a href="Lectures/PropertyDecorators.ipynb">Property Decorators</a></td>
 <td></td>
 </tr>
 
