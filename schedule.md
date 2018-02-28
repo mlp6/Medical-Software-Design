@@ -89,7 +89,7 @@ progress, severe weather days, etc.  Please check back regularly.
 
 <tr>
 <td>Wed Feb 28</td>
-<td>Intro to Web Services & Cloud-connected Devices</td>
+<td><a href="Lectures/intro_web_services">Intro to Web Services & Cloud-connected Devices</a></td>
 <td></td>
 </tr>
 
