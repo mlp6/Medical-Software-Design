@@ -95,7 +95,7 @@ progress, severe weather days, etc.  Please check back regularly.
 
 <tr>
 <td>Fri Mar 02</td>
-<td>Python Flask, API design, virtual machines (AWS, GCP)</td>
+<td><a href="https://github.com/mlp6/Medical-Software-Design/blob/master/Lectures/flask/flask.md">Python Flask, API design, virtual machines (AWS, GCP)</a></td>
 <td>[06] Basic Flask Web Service</td>
 </tr>
 
