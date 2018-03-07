@@ -95,13 +95,13 @@ progress, severe weather days, etc.  Please check back regularly.
 
 <tr>
 <td>Fri Mar 02</td>
-<td><a href="https://github.com/mlp6/Medical-Software-Design/blob/master/Lectures/flask/flask.md">Python Flask, API design, virtual machines (AWS, GCP)</a></td>
-<td>[06] Basic Flask Web Service</td>
+<td><a href="https://github.com/mlp6/Medical-Software-Design/blob/master/Lectures/flask/flask.md">Python Flask, API design, virtual machines (Duke OIT VMs)</a></td>
+  <td><a href="Lectures/flask/flask.md#mini-project">[Mini-Project] Basic Flask Web Service</a> [due 3/8]</td>
 </tr>
 
 <tr>
 <td>Wed Mar 07</td>
-<td>Microservices, Docker, Flask cont'd</td>
+<td><a href="Lectures/cloud_deployment/main.md">Production deployment to a cloud machine</a></td>
 <td></td>
 </tr>
 
