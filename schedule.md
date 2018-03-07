@@ -96,7 +96,7 @@ progress, severe weather days, etc.  Please check back regularly.
 <tr>
 <td>Fri Mar 02</td>
 <td><a href="https://github.com/mlp6/Medical-Software-Design/blob/master/Lectures/flask/flask.md">Python Flask, API design, virtual machines (Duke OIT VMs)</a></td>
-  <td><a href="Lectures/flask/flask.md#mini-project">[Mini-Project] Basic Flask Web Service</a> [due 3/8]</td>
+  <td><a href="Lectures/flask/flask.md#mini-project">[Mini-Project] Basic Flask Web Service</a> [due 3/9 before class]</td>
 </tr>
 
 <tr>
