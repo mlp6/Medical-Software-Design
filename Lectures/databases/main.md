@@ -51,7 +51,7 @@ for user in User.objects.raw({"first_name":"Rob"}):
 ```
 
 ## Mini-project/Assignment
-Create a new repository under your github username called `heart_rate_databases_introduction`. Build a web service that exposes the following functionality. You may use any database you are comfortable with or interested in exploring. 
+Fork the [starter repository](https://github.com/suyashkumar/heart_rate_databases_starter) and rename the repository `heart_rate_databases_introduction` by going to the "Settings" tab. The starter repository includes a MongoDB data model for a `User` for this project, and has a `main.py` file that shows how to interface with the database. Build a web service that exposes the following functionality. You may use any database you are comfortable with or interested in exploring. 
 
 * `POST /api/heart_rate` with
   ```sh
@@ -71,7 +71,8 @@ Create a new repository under your github username called `heart_rate_databases_
       "heart_rate_average_since": "2018-03-09 11:00:36.372339" // date string
   }
   ```
-  Should calculate and return the average heart rate for the user since the time specified. This should also return an indication of weather this average heart rate is considered [tachycardic](https://en.wikipedia.org/wiki/Tachycardia) for the user's current (latest recorded) age.
+  Should calculate and return the average heart rate for the user since the time specified. 
+  __BONUS__: This should also return an indication of weather this average heart rate is considered [tachycardic](https://en.wikipedia.org/wiki/Tachycardia) for the user's current (latest recorded) age.
   
 For this assignment, be sure to write modular code. This means your handler functions for routes should be calling other independent functions in different modules as frequently as possible. All of those other independant functions should be tested. You should also remember to validate user inputs that come from (`request.get_json()`) to ensure the right fields exist in the data and that they are the right type. You can write independant, testable `validate_heart_rate_request(r)` functions. You do not have to test the flask handler functions directly, but all other functions should be tested.  
 
