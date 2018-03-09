@@ -107,8 +107,8 @@ progress, severe weather days, etc.  Please check back regularly.
 
 <tr>
 <td>Fri Mar 09</td>
-<td>Introduction to Databases</td>
-<td>[07] Docker Server</td>
+  <td><a href="Lectures/databases/main.md">Introduction to Databases</a></td>
+  <td><a href="Lectures/databases/main.md#mini-projectassignment">[07-Mini] Heart Rate Storage </a></td>
 </tr>
 
 <tr>
