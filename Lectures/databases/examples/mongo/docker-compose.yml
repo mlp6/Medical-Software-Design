@@ -1,0 +1,9 @@
+version: '2'
+services:
+  nb:
+    build: .
+    ports:
+      - 8888:8888
+    volumes:
+      - $PWD:/home/jovyan/work
+    command: start.sh jupyter lab

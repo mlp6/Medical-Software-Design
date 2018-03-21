@@ -20,6 +20,8 @@ In the future, we'll explore Docker further, and chat about how to create your o
 ## MongoDB
 MongoDB is a non-relational "NoSQL" database that is essentially an object store -- it lets you build structured objects and put them into storage with easy queries for retrieval later. Generally MongoDB is a __schemaless__ database (unlike SQL databases), which means you generally do not have to specify a data structure schema for objects before inserting them into collections. This isn't great for programming because we'd like validation on our data models we're putting into and getting out of the database, so we're going to use `pymodm` to help us interface with MongoDB in that manner. 
 
+:eyes: To see a detailed example walkthrough of using pymodm see the [example jupyter notebook](examples/mongo/mongo-example.ipynb) :eyes:
+
 Below is the minimal example of a program that connects to a MongoDB database called `bme590` running on `localhost:27017`. To get a database running using `Docker` (which we will introduce in class) simply run 
 
 ```

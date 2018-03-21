@@ -1,2 +1,3 @@
 pymodm
 flask
+jupyterlab
