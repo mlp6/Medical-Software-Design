@@ -89,26 +89,26 @@ progress, severe weather days, etc.  Please check back regularly.
 
 <tr>
 <td>Wed Feb 28</td>
-<td><a href="Lectures/intro_web_services">Intro to Web Services & Cloud-connected Devices</a></td>
+<td><a href="Lectures/intro_web_services">Intro to Web Services & Cloud-connected Devices [SK]</a></td>
 <td></td>
 </tr>
 
 <tr>
 <td>Fri Mar 02</td>
-<td><a href="https://github.com/mlp6/Medical-Software-Design/blob/master/Lectures/flask/flask.md">Python Flask, API design, virtual machines (Duke OIT VMs)</a></td>
+<td><a href="https://github.com/mlp6/Medical-Software-Design/blob/master/Lectures/flask/flask.md">Python Flask, API design, virtual machines (Duke OIT VMs) [SK]</a></td>
   <td><a href="Lectures/flask/flask.md#mini-project">[Mini-Project] Basic Flask Web Service</a> [due 3/9 before class]</td>
 </tr>
 
 <tr>
 <td>Wed Mar 07</td>
-<td><a href="Lectures/cloud_deployment/main.md">Production deployment to a cloud machine</a></td>
+<td><a href="Lectures/cloud_deployment/main.md">Production deployment to a cloud machine [SK]</a></td>
 <td></td>
 </tr>
 
 <tr>
 <td>Fri Mar 09</td>
-  <td><a href="Lectures/databases/main.md">Introduction to Databases</a></td>
-  <td><a href="Lectures/databases/main.md#mini-projectassignment">[07-Mini] Heart Rate Storage </a></td>
+  <td><a href="Lectures/databases/main.md">Introduction to Databases [SK]</a></td>
+  <td><a href="Lectures/databases/main.md#mini-projectassignment">[07] Heart Rate Storage </a></td>
 </tr>
 
 <tr>
@@ -125,13 +125,13 @@ progress, severe weather days, etc.  Please check back regularly.
 
 <tr>
 <td>Wed Mar 21</td>
-<td>Web, Mobile, Desktop clients (ReactJS) [SK]</td>
-<td>A08: Cloud Heart Rate Monitor</td>
+<td>Assignment 7 guided work time [SK]</td>
+<td></td>
 </tr>
 
 <tr>
 <td>Fri Mar 23</td>
-<td>Web client (ReactJS) cont'd, final project intro [SK]</td>
+  <td><a href="Lectures/react/main.md">Web/Mobile client (ReactJS) Introduction [SK]</a></td>
 <td></td>
 </tr>
 
