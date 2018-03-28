@@ -101,8 +101,10 @@ class Child extends React.Component {
 
 :eyes: Notice that we needed to surround `this.props.name` in curly braces `{}`. This is because anytime we want to write Javascript code inside of `JSX` (the `HTML` like view language that is returned by the `render` function) we need to surround the javascript code in `{}`.
 
+Learn more about [JSX here](https://reactjs.org/docs/introducing-jsx.html)
+
 The `props` are passed in like HTML attributes in the parent like so:
 ```
 <MyComponent name="Hi" />
 ```
-But inside of `MyComponent` there is a dictionary or "object" called `this.props` that encodes in all the props passed to that instance of the component. Thus, the prop value would be accessed using `this.props.name`. In Javascript you can access "dict" values using `this.props.<KEY>` instead of using the phython `this.props[<KEY>]`. 
+But inside of `MyComponent` there is a dictionary or "object" called `this.props` that encodes in all the props passed to that instance of the component. Thus, the prop value would be accessed using `this.props.name`. In Javascript you can access "dict" values using `this.props.<KEY>` instead of using the python `this.props[<KEY>]`. 
