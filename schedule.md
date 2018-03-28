@@ -108,7 +108,7 @@ progress, severe weather days, etc.  Please check back regularly.
 <tr>
 <td>Fri Mar 09</td>
   <td><a href="Lectures/databases/main.md">Introduction to Databases [SK]</a></td>
-  <td><a href="Lectures/databases/main.md#mini-projectassignment">[07] Heart Rate Storage </a></td>
+  <td><a href="Lectures/databases/main.md#mini-projectassignment">[08] Heart Rate Storage </a></td>
 </tr>
 
 <tr>
@@ -131,14 +131,14 @@ progress, severe weather days, etc.  Please check back regularly.
 
 <tr>
 <td>Fri Mar 23</td>
-  <td><a href="Lectures/react/main.md">Web/Mobile client (ReactJS) Introduction [SK]</a></td>
+  <td><a href="Lectures/react/intro.md">Web/Mobile client (ReactJS) Introduction [SK]</a></td>
 <td></td>
 </tr>
 
 <tr>
 <td>Wed Mar 28</td>
-<td>Streaming Data, & Cloud-connected Hardware [SK]</td>
-<td></td>
+  <td><a href="Lectures/react/lecture2.md">Polished ReactJS + RESTful API Requests [SK]</a></td>
+  <td><a href="Lectures/react/assignment.md">[09] Heart Rate Physician Client (due 4/4/18 @ 11:59pm) </a></td>
 </tr>
 
 <tr>
