@@ -41,7 +41,7 @@ Plops the `Hello` component and any of it's functionality right there on the scr
 
 ## Anatomy of a React Application
 ### Components
-A component is a key unit of React--it is the most granular unit that has _both_ functionality and a view. Components are classes in Javascript that inherit from a base class `React.Component` that imbue your class with additional React-rendering powers. Every component has to do one thing -- define a `render()` method that returns a blob of `JSX` which is essentially `HTML` with some minor changes that we will see. 
+A component is a key unit of React--it is the most granular unit that has _both_ functionality and a view. Components are classes in Javascript that inherit from a base class `React.Component` that imbue your class with additional React-rendering powers. **Every component has to do one thing -- define a `render()` method that defines the current view.**
 
 ```js
 // Hello.js:
@@ -61,5 +61,48 @@ class Hello extends React.Component {
 
 export default Hello; // this allows the Hello class to be available to other modules importing this file
 ```
-If we render this as the only thing inside our `App` component (which is the "root" component), the browser will show one line: "Hello, Suyash" -- we will see this in class (and you can see it in the example code that will be pushed after class).
 
+### Props
+Properties or `props` are parameters that can be passed into Components, like we saw in our [Hello](example/my-app/src/Hello.js) component in class. This allows parent components to pass in parameters like `name` to child components: 
+```js
+// Parent.js
+import React from 'react';
+
+class Parent extends React.Component {
+
+	render() {
+		return (
+			<div>
+				<Child name="Suyash" /> // Will render to be "Hello there, Suyash"
+			</div>
+		)
+	}
+
+}
+
+export default Parent;
+```
+```js
+// Child.js
+import React from 'react';
+
+class Child extends React.Component {
+
+	render() {
+		return (
+			<div>
+				Hello there, {this.props.name} 
+			</div>
+		)
+	}
+
+}
+```
+
+:eyes: Notice that we needed to surround `this.props.name` in curly braces `{}`. This is because anytime we want to write Javascript code inside of `JSX` (the `HTML` like view language that is returned by the `render` function) we need to surround the javascript code in `{}`.
+
+The `props` are passed in like HTML attributes in the parent like so:
+```
+<MyComponent name="Hi" />
+```
+But inside of `MyComponent` there is a dictionary or "object" called `this.props` that encodes in all the props passed to that instance of the component. Thus, the prop value would be accessed using `this.props.name`. In Javascript you can access "dict" values using `this.props.<KEY>` instead of using the phython `this.props[<KEY>]`. 
