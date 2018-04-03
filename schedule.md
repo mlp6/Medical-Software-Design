@@ -143,14 +143,14 @@ progress, severe weather days, etc.  Please check back regularly.
 
 <tr>
 <td>Fri Mar 30</td>
-<td>IEC 62304 [MLP]</td>
+<td><a href="Lectures/pudb.md">Debugging</a> & <a href="Lectures/pip_pkg_install.md">PIP Packages</a></td>
 <td></td>
 </tr>
 
 <tr>
 <td>Wed Apr 04</td>
-<td>Debugging</td>
 <td>Working Project Code</td>
+<td></td>
 </tr>
 
 <tr>
@@ -173,7 +173,7 @@ progress, severe weather days, etc.  Please check back regularly.
 
 <tr>
 <td>Wed Apr 18</td>
-<td>Final project work</td>
+<td>IEC 62304 [MLP]</td>
 <td></td>
 </tr>
 
