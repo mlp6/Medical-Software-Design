@@ -17,6 +17,7 @@ class TextFieldExample extends React.Component {
 
 	onButtonClick = (event) => {
 		console.log(this.state.nameTextField); // log the current nameTextField content
+		this.props.onClickButton(this.state.nameTextField); // call the parent function 
 	}
 
 	render() {

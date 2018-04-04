@@ -6,6 +6,7 @@ import AppBar from 'material-ui/AppBar';
 import TextFieldExample from './TextFieldExample.js';
 import Toolbar from 'material-ui/Toolbar';
 import Typography from 'material-ui/Typography';
+import TableExample from './TableExample.js';
 
 var styles = {
 	"appBarStyle": {
@@ -14,6 +15,23 @@ var styles = {
 }
 
 class App extends React.Component {
+ 	constructor() {
+ 		super();
+		this.state = {
+			"tableData": [
+				[60, "1pm"],
+				[100, "2pm"],
+				[120, "3pm"],
+			],
+		}
+ 	}
+
+	onTextFieldButtonClick = (textFieldValue) => {
+		// WE HAVE THE CHILD DATA IN APP.JS YAY
+		// now let's make a GET request and put result in state
+		this.setState({"textFieldValueAtButtonPress": textFieldValue});
+	}
+ 
   // One thing every component must do: 
   // define the render method
   // (this defines the view of the component)
@@ -32,7 +50,10 @@ class App extends React.Component {
 		<Counter name="Suyash"/>
 		<Counter name="Mark"/>
 		<FetchData />
-		<TextFieldExample />
+
+		<TextFieldExample onClickButton={this.onTextFieldButtonClick}/>
+
+		<TableExample tableData={this.state.tableData} heading={["HR", "Time"]}/>
       </div>
     );
   }
