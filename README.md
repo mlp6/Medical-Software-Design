@@ -19,4 +19,9 @@ examples and Jupyter notebooks in this repository.
 will require some tweaking, specifically the `print()` function calls and fancy
 string formatting.*
 
-All code in this repository is covered by the [LICENSE](LICENSE).
+[![License: CC BY-SA 4.0](https://licensebuttons.net/l/by-sa/4.0/80x15.png)](https://creativecommons.org/licenses/by-sa/4.0/)
+
+All material in this repository is covered by a Creative Commons
+Attribution-ShareAlike 4.0 International.  *Individual pieces of code may be
+covered under different licenses.*
+
