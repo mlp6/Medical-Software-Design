@@ -1,5 +1,8 @@
 ﻿# Fall 2017 Feedback
-Random emails, class announcements, etc. that were accumulated from running the fall version of the course w/ Suyash.  Consolidating here to integrate into the curriculum this semester and not have them sit idle in my email archive.
+Random emails, class announcements, etc. that were accumulated from running the
+fall version of the course w/ Suyash.  Consolidating here to integrate into the
+curriculum this semester and not have them sit idle in my email archive.
+
 ## Raising exceptions (from Arjun)
 The URL below does a good overview of basic practices to remember when raising
 errors in python. While raising errors hasn't been emphasized much yet, it is
@@ -23,7 +26,7 @@ directory of your repository that containts a line: .idea git will ignore any
 of the contents of .gitignore when displaying file status, etc.  You can
 forcibly override the file ignores if you had to at some point.  If you have
 already commited and pushed .idea/ to GitHub, you can remove the directory from
-git--but keep it locally--by using git rm --cached .idea/ from the root-level
+git--but keep it locally--by using `git rm --cached .idea/` from the root-level
 of your repository.  Other good things to include in your .gitignore file
 includes `__pycache__` (cached files that can conflict when run on different
 OSs) and `*.pyc` files that are bytecompiled intermediates that can also
@@ -72,15 +75,11 @@ less bugs.
 
 
 ## VM Docker Install
-Avoid install Docker directly on Win 10; look into using linux subsystem or VM.
-
-I know some folks have been running into some Docker installation issues on
-their VM. I was able to get a working setup by following the below steps (let
-me know if they don't work for you):
-1. Install Docker https://docs.docker.com/engine/installation/linux/docker-ce/ubuntu/#install-using-the-convenience-script
-2. Setup Docker without sudo: sudo usermod -aG docker vcm
+1. Install Docker
+   https://docs.docker.com/engine/installation/linux/docker-ce/ubuntu/#install-using-the-convenience-script
+2. Setup Docker without sudo: `sudo usermod -aG docker vcm`
 3. Install docker-compose: https://docs.docker.com/compose/install/
-4. clone repo and run docker-compose up
+4. clone repo and run `docker-compose up`
 
 ## CORS
 Also, as many of you start to make RESTful API calls from your web frontend to
@@ -101,11 +100,18 @@ planning to stick around after class for this session. I expect it to take
 interested, please let me know.  If you're coming PLEASE DO THE FOLLOWING
 BEFORE THE SESSION IF POSSIBLE:
 1. Install Node.js (which comes with NPM): https://nodejs.org/en/
-2. Install create-react-app scaffolding tool by running: "npm install -g create-react-app"
-3. Set up a sample project for the session. Go ahead and run: "create-react-app react-learning" which will go ahead and create a scaffold react web application in a new folder called "react-learning" in your current working directory.
-4. Go ahead and install create-react-native-app by running: "npm install -g create-react-native-app"
-5. Go ahead and create a sample native project by running "create-react-native-app react-native-learning" 
-6. If you'd like to preview your app on your phone, please install the Expo client on your mobile phone: https://expo.io/
+2. Install create-react-app scaffolding tool by running: `npm install -g
+   create-react-app`
+3. Set up a sample project for the session. Go ahead and run: `create-react-app
+   react-learning` which will go ahead and create a scaffold react web
+   application in a new folder called `react-learning` in your current working
+   directory.
+4. Go ahead and install create-react-native-app by running: `npm install -g
+   create-react-native-app`
+5. Go ahead and create a sample native project by running
+   `create-react-native-app react-native-learning` 
+6. If you'd like to preview your app on your phone, please install the Expo
+   client on your mobile phone: https://expo.io/
 
 Here is the introduction to React video recorded from the session I did last
 Thursday: https://www.youtube.com/watch?time_continue=362&v=T3K4Wjz_jAQ. This
@@ -126,40 +132,73 @@ example when the upload completes, you can switch the user to the results tab
 by calling setState)
 
 Before deploying any frontend React code, you'll want to remove
-registerServiceWorker() from index.js, otherwise Chrome will throw security
+`registerServiceWorker()` from `index.js`, otherwise Chrome will throw security
 errors that you haven't deployed your application using SSL (https). All that
 command does is do some caching and other things to make your page load faster,
 which isn't a huge deal right now.
 
-## SSH Raspberry Pi
-1. The IP address on the pi changes periodically. So this means that you will have to check the ip address before you can ssh into it
-2. I currently have the devices registered under my name. If you want, I can unregister the pi from my account and you can reregister it on your account, where you might be able to see a stable ip address after SSHing into the pi a few times.
-3. if you choose to register it on your account, send me your MAC address - WIFI and ETH (label which one is which) - which you can find on the back of your pi. I will send you an email when I unregister the pi from my account so you can register it.
-4. When you re-register the device, you can register it with WIFI and ETH to be able to use the pi either via wifi or ethernet.
-5. To reregister the device, go to https://dukereg.duke.edu/
-
 ## RFCs
-Don't worry too much about the Alerting section -- do be sure to talk about how you will handle errors in the Architecture section, though
-For security considerations -- don't worry too much about the prompts given (you likely will not have service secrets) but please do try to be creative and throw something you might think would be a security worry in that section :). 
-You may see mention of "protobufs" do not worry about those -- please just list out your RESTful API endpoints and their expected inputs/outputs in the endpoints section at minimum. 
-Again, I wanted to remind folks that this is the first pass of the RFC and that it's a "living document" so will be expected to improve once you get feedback, which I would like to get to you ASAP. It should also be retroactivly updated as you work on your project if your design or architecture changes.
+Don't worry too much about the Alerting section -- do be sure to talk about how
+you will handle errors in the Architecture section, though For security
+considerations -- don't worry too much about the prompts given (you likely will
+not have service secrets) but please do try to be creative and throw something
+you might think would be a security worry in that section :).  You may see
+mention of "protobufs" do not worry about those -- please just list out your
+RESTful API endpoints and their expected inputs/outputs in the endpoints
+section at minimum.  Again, I wanted to remind folks that this is the first
+pass of the RFC and that it's a "living document" so will be expected to
+improve once you get feedback, which I would like to get to you ASAP. It should
+also be retroactivly updated as you work on your project if your design or
+architecture changes.
 
 ## Deep Learning
-I also wanted to follow up on the introduction to deep learning lecture from Thursday. Attached here are the slides from Ouwen's lecture. He has updated the Docker container with a new notebook called "MINST Notes" that walks through a great MINST training and classification example for those interested. As mentioned in class, we want to get you exposed to deep learning but the focus of the final project will be on the good software design practices you have been learning all semester in this class (as opposed to building the most accurate deep learning models), so we will be walking folks through much of the deep learning components. I highly encourage you to look through the high quality materials Ouwen has put together, as getting exposure to deep learning is more and more important as industry shifts towards machine learning. If you would like to reach out to Ouwen, you can contact him at ouwen.huang@duke.edu. 
+I also wanted to follow up on the introduction to deep learning lecture from
+Thursday. Attached here are the slides from Ouwen's lecture. He has updated the
+Docker container with a new notebook called "MINST Notes" that walks through a
+great MINST training and classification example for those interested. As
+mentioned in class, we want to get you exposed to deep learning but the focus
+of the final project will be on the good software design practices you have
+been learning all semester in this class (as opposed to building the most
+accurate deep learning models), so we will be walking folks through much of the
+deep learning components. I highly encourage you to look through the high
+quality materials Ouwen has put together, as getting exposure to deep learning
+is more and more important as industry shifts towards machine learning. If you
+would like to reach out to Ouwen, you can contact him at ouwen.huang@duke.edu. 
 Better way to utilize the R Pi earlier in the semester?
 
 ## Feedback from Joseph Cobb
-Overall appraisal of the course: This class is awesome! I really valued all of the technical skills that were covered. The throwing us in the deep-end approach is fun and a great way to learn (when grades aren’t stressing people out). I loved this class.
+Overall appraisal of the course: This class is awesome! I really valued all of
+the technical skills that were covered. The throwing us in the deep-end
+approach is fun and a great way to learn (when grades aren’t stressing people
+out). I loved this class.
  
-*Biggest negative:* The lack of organization was a bang-your-head-on-the-wall experience at times. I know this was only the second offering of the course and the largest role Suyash has had to date so I understand why, but the biggest room for improvement is organization! Even a better way to organize resources when students want to find them would be a huge help.
+*Biggest negative:* The lack of organization was a bang-your-head-on-the-wall
+experience at times. I know this was only the second offering of the course and
+the largest role Suyash has had to date so I understand why, but the biggest
+room for improvement is organization! Even a better way to organize resources
+when students want to find them would be a huge help.
  
-*Biggest positive:* The instructors! Both of you are very enthusiastic and engaging. After my internship over the summer (w/ Capital One), this class did feel like a work-place environment and that was cool.
+*Biggest positive:* The instructors! Both of you are very enthusiastic and
+engaging. After my internship over the summer (w/ Capital One), this class did
+feel like a work-place environment and that was cool.
  
-*Honesty-time:* It just came to mind that some class times could have been used better. For example, I didn’t love the deep dive into machine learning. That felt like too much too fast with not enough follow up. I loved the exposure and idea, but quality of exposure could be increased and quantity decreased in some ways.
+*Honesty-time:* It just came to mind that some class times could have been used
+better. For example, I didn’t love the deep dive into machine learning. That
+felt like too much too fast with not enough follow up. I loved the exposure and
+idea, but quality of exposure could be increased and quantity decreased in some
+ways.
  
-*An idea:* Because there is such a myriad of topics available to teach, a comprehensive list at the beginning of the semester and polling the class interest may allow the class to be unique each semester and maximize the expertise you both have to offer.
+*An idea:* Because there is such a myriad of topics available to teach, a
+comprehensive list at the beginning of the semester and polling the class
+interest may allow the class to be unique each semester and maximize the
+expertise you both have to offer.
  
-I think we should start final projects earlier! I also wouldn’t mind rotating groups (as long as the assignments were short and for the purpose of coding best practices).
+I think we should start final projects earlier! I also wouldn’t mind rotating
+groups (as long as the assignments were short and for the purpose of coding
+best practices).
 
 ## Feedback from Daniel Wu
-I  just wanted to let y'all know how much for I had in BME590 this semester. I thought that the class was extremely well instructed and helpful in me developing good software techniques and practices. I look forward to one day working with you guys again. MHappy Holidays!
+I  just wanted to let y'all know how much for I had in BME590 this semester. I
+thought that the class was extremely well instructed and helpful in me
+developing good software techniques and practices. I look forward to one day
+working with you guys again. MHappy Holidays!
