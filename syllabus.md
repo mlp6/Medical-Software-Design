@@ -91,12 +91,11 @@ submission of a [Short Term Illness Form
 Unexcused absences will count against the participation component of your class
 grade.
 
-## Textbooks & References
+## Textbooks & Resources
 There are no required textbooks for this class.  A variety of online resources
-will be referenced throughout the semester.  A few great resources for an overview
-of Python: 
-* [Whirlwind Tour of Python](https://github.com/jakevdp/WhirlwindTourOfPython)
-* [Intermediate Python](http://book.pythontips.com/en/latest/index.html)
+will be referenced throughout the semester.  
+
+* [Python Resources](Resources/python.md)
 
 ## Project Details
 Project details will be discussed in lecture throughout the semester.
