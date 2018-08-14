@@ -11,180 +11,180 @@ progress, severe weather days, etc.  Please check back regularly.
 </tr>
 
 <tr>
-<td>Fri Jan 12</td>
+<td>Tues Aug 28</td>
 <td><a href="Lectures/FirstDayClass/lecture01.md">Class Introduction, Objectives and Logistics</a></td>
 <td><a href="Assignments/01_tool_setup_git_fundamentals.md">[01] Setup Course Tools & Git Fundamentals</a></td>
 </tr>
 
 <tr>
-<td>Wed Jan 17</td>
+<td>Thurs Aug 30</td>
 <td>Class Cancelled (Severe Weather)</td>
 <td></td>
 </tr>
 
 <tr>
-<td>Fri Jan 19</td>
+<td>Tues Sept 04</td>
 <td>Class Cancelled (Severe Weather)</td>
 <td></td>
 </tr>
 
 <tr>
-<td>Wed Jan 24</td>
+<td>Thurs Sept 06</td>
 <td><a href="Lectures/GitFundamentals.md">Git: Repo Setup, Cloning/Forking, Issues, Branching, Pushing/Pulling</a></td>
 <td></td>
 </tr>
 
 <tr>
-<td>Fri Jan 26</td> 
+<td>Tues Sept 11</td> 
 <td><a href="Lectures/GitWorkflow.md">Git Workflow</a></td>
 <td><a href="Assignments/02_team_assignment.md">[02] Git Practice: Team Assignment</a></td>
 </tr>
 
 <tr>
-<td>Wed Jan 31</td>
+<td>Thurs Sept 13</td>
 <td><a href="Lectures/PythonFundamentals.md">Python Fundamentals</a></td>
 <td><a href="Assignments/03_python_fundamentals.md">[03] Python Fundamentals</a></td>
 </tr>
 
 <tr>
-<td>Fri Feb 02</td>
+<td>Tues Sept 18</td>
 <td><a href="Lectures/PythonDataStructures.md">Python: Data Structures</a></td>
 <td></td>
 </tr>
 
 <tr>
-<td>Wed Feb 07</td>
+<td>Thurs Sept 20</td>
 <td><a href="Lectures/UnitTestingCI.md">Python: Unit Testing (py.test) & Continuous Integration (Travis CI)</a></td>
 <td><a href="Assignments/04_unit_testing_ci.md">[04] Unit Testing & Continuous Integration (Travis CI)</a></td>
 </tr>
 
 <tr>
-<td>Fri Feb 09</td>
+<td>Tues Sept 25</td>
 <td>Python: Docstrings, <a href="Lectures/Exceptions_ExitCodes_Logging.md">Exceptions & Logging</a></td>
 <td><a href="Assignments/05_docstrings_exceptions.md">[05] Docstrings, Exceptions & Logging</a></td>
 </tr>
 
 <tr>
-<td>Wed Feb 14</td>
+<td>Thurs Sept 27</td>
 <td><a href="Lectures/ArgparseSubmodulesPackages.md">Argparse, Submodules & Packages</a></td>
 <td></td>
 </tr>
 <tr>
-<td>Fri Feb 16</td>
+<td>Tues Oct 02</td>
 <td><a href="Lectures/OOP/PythonClasses.ipynb">Object Oriented Programming</a></td>
 <td><a href="Assignments/06_module_class.md">[06] Convert Module to Class</a></td>
 </tr>
 
 <tr>
-<td>Wed Feb 21</td>
+<td>Thurs Oct 04</td>
 <td><a href="Lectures/PropertyDecorators.ipynb">Property Decorators</a></td>
 <td></td>
 </tr>
 
 <tr>
-<td>Fri Feb 23</td>
-<td>Assignment Work Time</td>
+<td>Tues Oct 09</td>
+<td>Fall Break</td>
 <td><a href="Assignments/HeartRateMonitor/HeartRateMonitor.md">[07] Heart Rate Monitor</a></td>
 </tr>
 
 <tr>
-<td>Wed Feb 28</td>
+<td>Thurs Oct 11</td>
 <td><a href="Lectures/intro_web_services">Intro to Web Services & Cloud-connected Devices [SK]</a></td>
 <td></td>
 </tr>
 
 <tr>
-<td>Fri Mar 02</td>
+<td>Tues Oct 16 </td>
 <td><a href="https://github.com/mlp6/Medical-Software-Design/blob/master/Lectures/flask/flask.md">Python Flask, API design, virtual machines (Duke OIT VMs) [SK]</a></td>
   <td><a href="Lectures/flask/flask.md#mini-project">[Mini-Project] Basic Flask Web Service</a> [due 3/9 before class]</td>
 </tr>
 
 <tr>
-<td>Wed Mar 07</td>
+<td>Thurs Oct 18</td>
 <td><a href="Lectures/cloud_deployment/main.md">Production deployment to a cloud machine [SK]</a></td>
 <td></td>
 </tr>
 
 <tr>
-<td>Fri Mar 09</td>
+<td>Tues Oct 23</td>
   <td><a href="Lectures/databases/main.md">Introduction to Databases [SK]</a></td>
   <td><a href="Lectures/databases/main.md#mini-projectassignment">[08] Heart Rate Storage </a></td>
 </tr>
 
 <tr>
-<td>Wed Mar 14</td>
+<td>Thurs Oct 25</td>
 <td>SPRING BREAK</td>
 <td>SPRING BREAK</td>
 </tr>
 
 <tr>
-<td>Fri Mar 16</td>
+<td>Tues Oct 30</td>
 <td>SPRING BREAK</td>
 <td>SPRING BREAK</td>
 </tr>
 
 <tr>
-<td>Wed Mar 21</td>
+<td>Thurs Nov 01</td>
 <td>Assignment 7 guided work time [SK]</td>
 <td></td>
 </tr>
 
 <tr>
-<td>Fri Mar 23</td>
+<td>Tues Nov 06</td>
   <td><a href="Lectures/react/intro.md">Web/Mobile client (ReactJS) Introduction [SK]</a></td>
 <td></td>
 </tr>
 
 <tr>
-<td>Wed Mar 28</td>
+<td>Thurs Nov 08</td>
   <td><a href="Lectures/react/lecture2.md">Polished ReactJS + RESTful API Requests [SK]</a></td>
   <td><a href="Lectures/react/assignment.md">[09] Heart Rate Physician Client (due 4/4/18 @ 11:59pm) </a></td>
 </tr>
 
 <tr>
-<td>Fri Mar 30</td>
+<td>Tues Nov 13</td>
 <td><a href="Lectures/pudb.md">Debugging</a> & <a href="Lectures/pip_pkg_install.md">PIP Packages</a></td>
 <td></td>
 </tr>
 
 <tr>
-<td>Wed Apr 04</td>
+<td>Thurs Nov 15</td>
 <td>Working Project Code</td>
 <td></td>
 </tr>
 
 <tr>
-<td>Fri Apr 06</td>
+<td>Tues Nov 20</td>
 <td>TBD, final project work</td>
 <td></td>
 </tr>
 
 <tr>
-<td>Wed Apr 11</td>
-<td>Project Lab</td>
+<td>Thurs Nov 22</td>
+<td>Thanksgiving</td>
 <td>Refactor Project Code</td>
 </tr>
 
 <tr>
-<td>Fri Apr 13</td>
+<td>Tues Nov 27</td>
 <td>Final project work</td>
 <td></td>
 </tr>
 
 <tr>
-<td>Wed Apr 18</td>
-<td>IEC 62304 [MLP]</td>
+<td>Thurs Nov 29</td>
+<td>LDOC! IEC 62304 [MLP]</td>
 <td></td>
 </tr>
 
 <tr>
-<td>Fri Apr 20</td>
+<td>Tues Dec 04</td>
 <td>Final project work</td>
 <td></td>
 </tr>
 
 <tr>
-<td>Wed Apr 25</td>
+<td>Thurs Dec 06</td>
 <td>Final project due</td>
 <td></td>
 </td>

@@ -3,24 +3,28 @@
 ## Instructors
 Dr. Mark Palmeri, M.D., Ph.D.  
 <mark.palmeri@duke.edu>  
-Office Hours: https://calendly.com/mark-palmeri
+Office Hours: TBD (258 Hudson Hall Annex)
 
-Suyash Kumar, Uber Software Engineer, Web Guru, Deep Learning Master  
+Suyash Kumar, CTO & Co-Founder of Gradient Health
 <suyash.kumar@duke.edu>  
-Office Hours: Friday after class (266 Hudson Hall Annex)
+Office Hours: Day / Time TBD (Location TBD)
+
+Dr. David Ward, Ph.D.
+<XXXX@duke.edu>
+Office Hours: Day / Time TBD (Location TBD)
 
 ## Teaching Assistants
-Arjun Desai  
-<arjun.desai@duke.edu>  
-Office Hours: Monday 11:30-12:30 (Teer Basement)
+Ismael Perez 
+<ismael.perez@duke.edu>  
+Office Hours: Day / Time TBD (Location TBD)
 
-Nisarg Shah  
-<nisarg.shah@duke.edu>  
-Office Hours: Wednesday 14:00-15:00 (Teer Basement)
+Tanvi Kamat Tarcar 
+<tanvi.kamat.tarcar@duke.edu>
+Office Hours: Day / Time TBD (Location TBD)
 
 ## Lecture
-Wed/Fri 11:45--13:00  
-216 Hudson Hall
+Tues/Thur 15:05--16:20
+Teer 106
 
 All lecture content will be outlined in [Lectures](Lectures/).
 
@@ -114,10 +118,10 @@ The following grading scheme is subject to change as the semester progresses:
 </tr>
 <tr>
 <td>Midterm project deliverables</td>
-<td>55%</td>
+<td>35%</td>
 </tr>
 <td>Final project</td>
-<td>30%</td>
+<td>60%</td>
 </tr>
 </table>
 
