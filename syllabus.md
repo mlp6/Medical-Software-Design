@@ -14,8 +14,8 @@ Dr. David Ward, Ph.D.
 Office Hours: Day / Time TBD (Location TBD)
 
 ## Teaching Assistants
-Ismael Perez 
-<ismael.perez@duke.edu>  
+Ismael Perez  
+<ismael.perez@duke.edu>   
 Office Hours: Day / Time TBD (Location TBD)
 
 Tanvi Kamat Tarcar  
