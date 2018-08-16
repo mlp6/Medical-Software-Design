@@ -18,37 +18,37 @@ progress, severe weather days, etc.  Please check back regularly.
 
 <tr>
 <td>Thurs Aug 30</td>
-<td>Class Cancelled (Severe Weather)</td>
-<td></td>
-</tr>
-
-<tr>
-<td>Tues Sept 04</td>
-<td>Class Cancelled (Severe Weather)</td>
-<td></td>
-</tr>
-
-<tr>
-<td>Thurs Sept 06</td>
 <td><a href="Lectures/GitFundamentals.md">Git: Repo Setup, Cloning/Forking, Issues, Branching, Pushing/Pulling</a></td>
 <td></td>
 </tr>
 
 <tr>
-<td>Tues Sept 11</td> 
+<td>Tues Sept 04</td>
 <td><a href="Lectures/GitWorkflow.md">Git Workflow</a></td>
 <td><a href="Assignments/02_team_assignment.md">[02] Git Practice: Team Assignment</a></td>
 </tr>
 
 <tr>
-<td>Thurs Sept 13</td>
+<td>Thurs Sept 06</td>
 <td><a href="Lectures/PythonFundamentals.md">Python Fundamentals</a></td>
-<td><a href="Assignments/03_python_fundamentals.md">[03] Python Fundamentals</a></td>
+<td></td>
+</tr>
+
+<tr>
+<td>Tues Sept 11</td> 
+<td><a href="Lectures/PythonDataStructures.md">Python: Data Structures</a></td>
+<td></td>
+</tr>
+
+<tr>
+<td>Thurs Sept 13</td>
+<td></td>
+<td></td>
 </tr>
 
 <tr>
 <td>Tues Sept 18</td>
-<td><a href="Lectures/PythonDataStructures.md">Python: Data Structures</a></td>
+<td>NO LECTURE (NC State Career Fair)</td>
 <td></td>
 </tr>
 
@@ -89,7 +89,7 @@ progress, severe weather days, etc.  Please check back regularly.
 
 <tr>
 <td>Thurs Oct 11</td>
-<td><a href="Lectures/intro_web_services">Intro to Web Services & Cloud-connected Devices [SK]</a></td>
+<td><a href="Lectures/pudb.md">Debugging</a> & <a href="Lectures/pip_pkg_install.md">PIP Packages</a></td>
 <td></td>
 </tr>
 
@@ -101,49 +101,55 @@ progress, severe weather days, etc.  Please check back regularly.
 
 <tr>
 <td>Thurs Oct 18</td>
-<td><a href="Lectures/cloud_deployment/main.md">Production deployment to a cloud machine [SK]</a></td>
+<td>Jupyter Notebooks</td>
+<!--<td><a href="Lectures/cloud_deployment/main.md">Production deployment to a cloud machine [SK]</a></td>-->
 <td></td>
 </tr>
 
 <tr>
 <td>Tues Oct 23</td>
-  <td><a href="Lectures/databases/main.md">Introduction to Databases [SK]</a></td>
-  <td><a href="Lectures/databases/main.md#mini-projectassignment">[08] Heart Rate Storage </a></td>
+<td>Matplotlib / Seaborn</td>
+<!--<td><a href="Lectures/databases/main.md">Introduction to Databases [SK]</a></td>-->
+<!--<td><a href="Lectures/databases/main.md#mini-projectassignment">[08] Heart Rate Storage </a></td>-->
+<td></td>
 </tr>
 
 <tr>
 <td>Thurs Oct 25</td>
-<td>SPRING BREAK</td>
-<td>SPRING BREAK</td>
+<td>Pandas (DataFrames)</td>
+<td></td>
 </tr>
 
 <tr>
 <td>Tues Oct 30</td>
-<td>SPRING BREAK</td>
-<td>SPRING BREAK</td>
+<td>Data Wrangling</td>
+<td></td>
 </tr>
 
 <tr>
 <td>Thurs Nov 01</td>
-<td>Assignment 7 guided work time [SK]</td>
+<td><a href="Lectures/intro_web_services">Intro to Web Services & Cloud-connected Devices [SK]</a></td>
 <td></td>
 </tr>
 
 <tr>
 <td>Tues Nov 06</td>
-  <td><a href="Lectures/react/intro.md">Web/Mobile client (ReactJS) Introduction [SK]</a></td>
+<!--<td><a href="Lectures/react/intro.md">Web/Mobile client (ReactJS) Introduction [SK]</a></td>-->
+<td></td>
 <td></td>
 </tr>
 
 <tr>
 <td>Thurs Nov 08</td>
-  <td><a href="Lectures/react/lecture2.md">Polished ReactJS + RESTful API Requests [SK]</a></td>
-  <td><a href="Lectures/react/assignment.md">[09] Heart Rate Physician Client (due 4/4/18 @ 11:59pm) </a></td>
+<!--<td><a href="Lectures/react/lecture2.md">Polished ReactJS + RESTful API Requests [SK]</a></td>-->
+<!--<td><a href="Lectures/react/assignment.md">[09] Heart Rate Physician Client (due 4/4/18 @ 11:59pm)</a></td>-->
+<td></td>
+<td></td>
 </tr>
 
 <tr>
 <td>Tues Nov 13</td>
-<td><a href="Lectures/pudb.md">Debugging</a> & <a href="Lectures/pip_pkg_install.md">PIP Packages</a></td>
+<td></td>
 <td></td>
 </tr>
 

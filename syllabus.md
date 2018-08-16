@@ -5,12 +5,12 @@ Dr. Mark Palmeri, M.D., Ph.D.
 <mark.palmeri@duke.edu>  
 Office Hours: TBD (258 Hudson Hall Annex)
 
-Suyash Kumar, CTO & Co-Founder of Gradient Health
+Suyash Kumar, CTO & Co-Founder of Gradient Health  
 <suyash.kumar@duke.edu>  
 Office Hours: Day / Time TBD (Location TBD)
 
-Dr. David Ward, Ph.D.
-<XXXX@duke.edu>
+Dr. David Ward, Ph.D.  
+<XXXXX@duke.edu>  
 Office Hours: Day / Time TBD (Location TBD)
 
 ## Teaching Assistants
@@ -18,12 +18,12 @@ Ismael Perez
 <ismael.perez@duke.edu>  
 Office Hours: Day / Time TBD (Location TBD)
 
-Tanvi Kamat Tarcar 
-<tanvi.kamat.tarcar@duke.edu>
+Tanvi Kamat Tarcar  
+<tanvi.kamat.tarcar@duke.edu>  
 Office Hours: Day / Time TBD (Location TBD)
 
 ## Lecture
-Tues/Thur 15:05--16:20
+Tues/Thur 15:05--16:20  
 Teer 106
 
 All lecture content will be outlined in [Lectures](Lectures/).
@@ -48,32 +48,13 @@ Basic familiarity with programming concepts (e.g., variables, loops,
 conditional statements).
 
 ## Course Objectives
-* Define software specifications and constraints
-* Agile project management
+* Software version control (`git`, GitHub)
 * Device programming fundamentals
-  + Review of data types
+  + Review of data types, variables, loops, conditional statements
   + Python (v3.6): numpy, scipy, pandas, scikit
   + Virtual environments & dependency management (`pip`, `requirements.txt`)
-  + Data management (variables, references, pointers, ASCII/Unicode/binary data)
-  + Regular expressions (regex)
   + Use of a programming IDE
   + Debugging (`pudb`)
-* Backend Software Development in the Cloud
-  + Databases (MySQL, MongoDB)
-  + HTTP & RESTful APIs
-  + Leverage scalable compute infrastructure in the cloud via Remote Procedure Calls (RPCs)
-  + Call web services from Matlab \& Python
-  + Design & Implementation of a biomedical web service (Python Flask)
-  + Docker and dependency management intro
-  + SSL and Encryption
-  + Internet of Things (IoT) and cloud connected biomedical device design
-  + Sockets and streaming data over networks
-* Software version control (`git`, GitHub)
-* Documentation
-  + Docstrings
-  + Markdown
-  + Sphinx
-  + [ReadTheDocs](https://readthedocs.org)
 * Testing
   + Unit testing
   + Functional / System testing
@@ -81,6 +62,24 @@ conditional statements).
 * Fault tolerance (raising exceptions)
 * Logging
 * Resource profiling (`cProfile`)
+* Documentation
+  + Docstrings
+  + Markdown
+  + Sphinx
+  + [ReadTheDocs](https://readthedocs.org)
+* Working with data
+  + Data Storage (Text, Binary, HDF5, MongoDB)
+  + Data Wrangling
+* Data Processing & Display
+  + Jupyter Notebooks
+  + Matplotlib / Seaborn
+  + Pandas (DataFrames)
+  + [scikit-image](https://scikit-image.org/) & [scikit-learn](https://scikit-learn.org/)
+* Define software specifications and constraints (Requests for Comments, RFC)
+* Servers
+  + Design & Implementation of a biomedical web service (Python Flask)
+  + HTTP & RESTful APIs
+  + Docker and dependency management intro
 
 ## Attendance
 Lecture attendance and participation is important because you will be working
@@ -88,7 +87,7 @@ in small groups most of the semester.  Participation in these in-class
 activities will count for 15\% of your class grade.  It is very understandable
 that students will have to miss class for job interviews, personal reasons,
 illness, etc.  Absences will be considered \emph{excused} if they are
-communicated to Dr. Palmeri and Mr. Kumar at least 48 hours in advance (subject
+communicated to your instructors at least 48 hours in advance (subject
 to instructor discretion as an excused absence) or, for illness, through
 submission of a [Short Term Illness Form
 (STIF)](http://www.pratt.duke.edu/undergrad/policies/3531) **before** class.
@@ -117,7 +116,7 @@ The following grading scheme is subject to change as the semester progresses:
 <td>15%</td>
 </tr>
 <tr>
-<td>Midterm project deliverables</td>
+<td>Assignments</td>
 <td>35%</td>
 </tr>
 <td>Final project</td>
@@ -171,8 +170,8 @@ software repository will be provided on a regular basis.
 
 ## Online Slack Channels
 We have online help through the [Duke Co-Lab
-Slack](https://dukecolab.slack.edu/) team.  We have started two specifics
-channels for this class: `#git` and `#python`.  Please add yourselves to these
+Slack](https://dukecolab.slack.edu/) team. We have started two specifics
+channels for this class: `#git` & `#python`. Please add yourselves to these
 channels to get help from your instructors, your TAs and the Duke community!
 
 ## Duke Community Standard & Academic Honor
