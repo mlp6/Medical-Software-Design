@@ -101,16 +101,16 @@ progress, severe weather days, etc.  Please check back regularly.
 
 <tr>
 <td>Thurs Oct 18</td>
-<td>Jupyter Notebooks</td>
 <!--<td><a href="Lectures/cloud_deployment/main.md">Production deployment to a cloud machine [SK]</a></td>-->
+<td>Jupyter Notebooks</td>
 <td></td>
 </tr>
 
 <tr>
 <td>Tues Oct 23</td>
-<td>Matplotlib / Seaborn</td>
 <!--<td><a href="Lectures/databases/main.md">Introduction to Databases [SK]</a></td>-->
 <!--<td><a href="Lectures/databases/main.md#mini-projectassignment">[08] Heart Rate Storage </a></td>-->
+<td>Matplotlib / Seaborn</td>
 <td></td>
 </tr>
 
@@ -128,14 +128,14 @@ progress, severe weather days, etc.  Please check back regularly.
 
 <tr>
 <td>Thurs Nov 01</td>
-<td><a href="Lectures/intro_web_services">Intro to Web Services & Cloud-connected Devices [SK]</a></td>
+<td></td>
 <td></td>
 </tr>
 
 <tr>
 <td>Tues Nov 06</td>
 <!--<td><a href="Lectures/react/intro.md">Web/Mobile client (ReactJS) Introduction [SK]</a></td>-->
-<td></td>
+<td><a href="Lectures/intro_web_services">Intro to Web Services & Cloud-connected Devices [SK]</a></td>
 <td></td>
 </tr>
 
