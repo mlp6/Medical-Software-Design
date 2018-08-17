@@ -170,7 +170,7 @@ software repository will be provided on a regular basis.
 
 ## Online Slack Channels
 We have online help through the [Duke Co-Lab
-Slack](https://dukecolab.slack.edu/) team. We have started two specifics
+Slack](https://dukecolab.slack.com/) team. We have started two specifics
 channels for this class: `#git` & `#python`. Please add yourselves to these
 channels to get help from your instructors, your TAs and the Duke community!
 
