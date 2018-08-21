@@ -95,8 +95,8 @@ progress, severe weather days, etc.  Please check back regularly.
 
 <tr>
 <td>Tues Oct 16 </td>
-<td><a href="https://github.com/mlp6/Medical-Software-Design/blob/master/Lectures/flask/flask.md">Python Flask, API design, virtual machines (Duke OIT VMs) [SK]</a></td>
-  <td><a href="Lectures/flask/flask.md#mini-project">[Mini-Project] Basic Flask Web Service</a> [due 3/9 before class]</td>
+  <td/>
+  <td/>
 </tr>
 
 <tr>
@@ -128,29 +128,29 @@ progress, severe weather days, etc.  Please check back regularly.
 
 <tr>
 <td>Thurs Nov 01</td>
-<td></td>
-<td></td>
-</tr>
-
-<tr>
-<td>Tues Nov 06</td>
-<!--<td><a href="Lectures/react/intro.md">Web/Mobile client (ReactJS) Introduction [SK]</a></td>-->
 <td><a href="Lectures/intro_web_services">Intro to Web Services & Cloud-connected Devices [SK]</a></td>
-<td></td>
+<td>[TBD] Call web services (SendGrid, Twilio, etc)</td>
 </tr>
 
 <tr>
-<td>Thurs Nov 08</td>
+  <td>Tues Nov 06</td>
+<!--<td><a href="Lectures/react/intro.md">Web/Mobile client (ReactJS) Introduction [SK]</a></td>-->
+  <td><a href="https://github.com/mlp6/Medical-Software-Design/blob/master/Lectures/flask/flask.md">Python Flask, API design, virtual machines (Duke OIT VMs) [SK]</a></td>
+  <td><a href="Lectures/flask/flask.md#mini-project">[Mini-Project] Basic Flask Web Service</a></td>
+</tr>
+
+<tr>
+  <td>Thurs Nov 08</td>
 <!--<td><a href="Lectures/react/lecture2.md">Polished ReactJS + RESTful API Requests [SK]</a></td>-->
 <!--<td><a href="Lectures/react/assignment.md">[09] Heart Rate Physician Client (due 4/4/18 @ 11:59pm)</a></td>-->
-<td></td>
-<td></td>
+  <td><a href="Lectures/databases/main.md">Introduction to Databases [SK]</a></td>
+  <td><a href="Lectures/databases/main.md#mini-projectassignment">Heart Rate Sentinel Server</a></td>
 </tr>
 
 <tr>
-<td>Tues Nov 13</td>
-<td></td>
-<td></td>
+  <td>Tues Nov 13</td>
+  <td><a href="Lectures/databases/main.md">Databases in Health Data Science</a></td>
+  <td>TBD</td>
 </tr>
 
 <tr>
