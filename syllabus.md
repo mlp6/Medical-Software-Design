@@ -7,11 +7,14 @@ Office Hours: TBD (258 Hudson Hall Annex)
 
 Suyash Kumar, CTO & Co-Founder of Gradient Health  
 <suyash.kumar@duke.edu>  
-Office Hours: Day / Time TBD (Location TBD)
+Office Hours: Day / Time TBD (Google Hangouts)
 
 Dr. David Ward, Ph.D.  
-<XXXXX@duke.edu>  
-Office Hours: Day / Time TBD (Location TBD)
+<david.a.ward@duke.edu>  
+Office Hours: Thursday 21:00-22:00 (Google Hangouts)
+
+*Google Hangout office hours can be joined by a URL that will be sent to the
+class via email.*
 
 ## Teaching Assistants
 Ismael Perez  
@@ -170,9 +173,10 @@ software repository will be provided on a regular basis.
 
 ## Online Slack Channels
 We have online help through the [Duke Co-Lab
-Slack](https://dukecolab.slack.com/) team. We have started two specifics
-channels for this class: `#git` & `#python`. Please add yourselves to these
-channels to get help from your instructors, your TAs and the Duke community!
+Slack](https://dukecolab.slack.com/) team. We have started three specific
+channels for this class: `#linux`, `#git` & `#python`. Please add yourselves to
+these channels to get help from your instructors, your TAs and the Duke
+community!
 
 ## Duke Community Standard & Academic Honor
 Engineering is inherently a collaborative field, and in this class, you are
