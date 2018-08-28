@@ -43,6 +43,7 @@
   Thursday.  Also checkout the Duke Co-Lab, which hosts regular office hours
   and has an online Slack team: https://colab.duke.edu/ .  We have a specific
   channel on there for this class, including:
+  + `#linux`
   + `#git`
   + `#python`
 
