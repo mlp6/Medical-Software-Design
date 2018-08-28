@@ -24,6 +24,7 @@ Lecture 01
 
 * [Suyash Kumar](http://suyashkumar.com/)
   + Duke BME/CS (2012-2016)
+  + Founder & CTO [Gradient Health](https://gradienthealth.ai/)
   + [MicroElastic Ultrasound](http://microelastic.com/) CTO
   + Uber software engineer
   + Software lead on Duke's [POCkeT Colposcope](https://www.pocketcolposcope.com/) & other projects
