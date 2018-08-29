@@ -3,19 +3,16 @@
 ## Getting Setup
 1. Create an account on GitHub (https://github.com).
 
-1. Download and install `git` at https://git-scm.com.  We will
-   be using Git Bash, *not* a GUI client.  If you are using Windows 10,
-   then you can consider using the Ubuntu Linux Subsystem and running `git`
-   from there (see note about how to install `python` for this setup below).
+1. Download and install `git` at https://git-scm.com.  We will be using `Git Bash`, *not* a GUI client.  Note - If you are using Windows 10 and you choose to use the Ubuntu Linux Subsystem (see below), then `git` will be installed in that Linux environment and does not have to be installed in your Windows environment, *but* other Windows applications that have `git` hooks will not work.
 
-1. Setup an SSH key to seamlessly push/pull to/from your GitHub repositories:
+1. [**Optional**]  Setup an SSH key to seamlessly push/pull to/from your GitHub repositories:
    https://help.github.com/articles/connecting-to-github-with-ssh/
 
 1. Download and install `python3` at https://www.python.org/. Be sure to
-   install Python 3.6, *not* Python 2.7.  Note that if you are using Windows,
+   install Python 3.6 or 3.7, *not* Python 2.7.  Note that if you are using Windows,
    you should consider either:
-  + **Preferred** Install Anaconda Python from https://www.anaconda.com/download.  Using "vanilla" Python on Windows can have challenges with importing some packages, such as `numpy`, which do not exist in compiled wheels for Windows.  You can download the complete Anaconda package; Miniconda is used to bring in the bare minimum of packages and then install what is necessary in virtual environments, but each project will require more download overhead.
-  + Installing and using the Ubuntu Linux Subsystem (Windows 10), and running `python3` from within that environment, or
+  + [**Preferred**] Install Anaconda Python from https://www.anaconda.com/download.  Using "vanilla" Python on Windows can have challenges with importing some packages, such as `numpy`, which do not exist in compiled wheels for Windows.  You can download the complete Anaconda package; Miniconda is used to bring in the bare minimum of packages and then install what is necessary in virtual environments, but each project will require more download overhead.
+  + Installing and using the [Ubuntu Linux Subsystem (Windows 10)](https://docs.microsoft.com/en-us/windows/wsl/about), and running `python3` from within that environment.  This approach will give you a legitimate Linux environment, but there is overhead to running GUI applications through an X-server, which adds more complexity and can be slower for complex interfaces.
 
 1. You will want a code writing environment that makes life easier for you as
   your projects get more complex.  Options include:
