@@ -14,12 +14,8 @@
 1. Download and install `python3` at https://www.python.org/. Be sure to
    install Python 3.6, *not* Python 2.7.  Note that if you are using Windows,
    you should consider either:
-  + Installing and using the Ubuntu Linux Subsystem (Windows 10), and running
-    `python3` from within that environment, or
-  + Install Conda python from https://www.continuum.io/downloads.  Using
-    "vanilla" Python on Windows can have challenges with importing some
-    packages, such as `numpy`, which do not exist in compiled wheels for
-    Windows.
+  + **Preferred** Install Anaconda Python from https://www.anaconda.com/download.  Using "vanilla" Python on Windows can have challenges with importing some packages, such as `numpy`, which do not exist in compiled wheels for Windows.  You can download the complete Anaconda package; Miniconda is used to bring in the bare minimum of packages and then install what is necessary in virtual environments, but each project will require more download overhead.
+  + Installing and using the Ubuntu Linux Subsystem (Windows 10), and running `python3` from within that environment, or
 
 1. You will want a code writing environment that makes life easier for you as
   your projects get more complex.  Options include:
@@ -54,7 +50,7 @@
   + Edit your local file, adding and committing those edits.
   + Create a remote repository on GitHub that has the same name as your local repository.
   + Add the remote repository (origin) URL to your local repository.
-  + Push your local repostiory to GitHub.
+  + Push your local repository to GitHub.
   + Create a local branch, create/add/commit a new file.
   + Merge new local branch commit(s) into local master.
   + Push updated master branch to GitHub.
