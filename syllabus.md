@@ -7,7 +7,7 @@ Office Hours: TBD (258 Hudson Hall Annex)
 
 Suyash Kumar, CTO & Co-Founder of Gradient Health  
 <suyash.kumar@duke.edu>  
-Office Hours: Day / Time TBD (Google Hangouts)
+Office Hours: Tuesday 16:20-17:20 (Teer 106 or at http://chat.suyashkumar.com)
 
 Dr. David Ward, Ph.D.  
 <david.a.ward@duke.edu>  
