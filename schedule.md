@@ -25,7 +25,7 @@ progress, severe weather days, etc.  Please check back regularly.
 <tr>
 <td>Tues Sept 04</td>
 <td><a href="Lectures/GitWorkflow.md">Git Workflow</a></td>
-<td><a href="Assignments/02_team_assignment.md">[02] Git Practice: Team Assignment</a></td>
+<td><a href="Assignments/getting_started_git.md">[02] Getting Started with git</a></td>
 </tr>
 
 <tr>
