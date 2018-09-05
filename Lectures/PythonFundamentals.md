@@ -85,3 +85,6 @@ if __name__ == "__main__":
     main()
 ```
 * All of the functions above, except for main, should be testable.
+
+## Learning Python
+* [Playground and Cheatsheet for Learning Python](https://github.com/mlp6/learn-python)  Please note that this is a fork of a repository created by GitHub user [trekhleb](https://github.com/trekhleb).
