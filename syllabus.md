@@ -123,7 +123,7 @@ The following grading scheme is subject to change as the semester progresses:
 <td>35%</td>
 </tr>
 <td>Final project</td>
-<td>60%</td>
+<td>50%</td>
 </tr>
 </table>
 
