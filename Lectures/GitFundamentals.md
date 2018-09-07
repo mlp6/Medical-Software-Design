@@ -11,6 +11,11 @@ This command will clone the most recent files and complete history of the
 repository to a local directory (can specify a name different than the
 repository name with `$LOCALREPONAME`.
 
+* To work in your cloned repository, you will need to change into the directory
+  (`$LOCALREPONAME`) that was created by the clone operation.  A nice
+  walkthrough of this process is summarized in
+  [GitBashFolders](GitBashFolders/GitBashFolders.md).
+
 * How do I figure out what files in my local repository have changed or their status in the git commit process?
 ```
 git status
