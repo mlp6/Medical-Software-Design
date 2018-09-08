@@ -30,19 +30,19 @@ progress, severe weather days, etc.  Please check back regularly.
 
 <tr>
 <td>Thurs Sept 06</td>
-<td><a href="Lectures/PythonFundamentals.md">Python Fundamentals</a></td>
+<td><a href="Lectures/PythonFundamentals.md">Python Virtual Environments</a></td>
 <td></td>
 </tr>
 
 <tr>
 <td>Tues Sept 11</td> 
-<td><a href="Lectures/PythonDataStructures.md">Python: Data Structures</a></td>
+<td><a href="Lectures/PythonFundamentals.md">Python Fundamentals</a></td>
 <td></td>
 </tr>
 
 <tr>
 <td>Thurs Sept 13</td>
-<td></td>
+<td><a href="Lectures/PythonDataStructures.md">Python: Data Structures</a></td>
 <td></td>
 </tr>
 
@@ -66,37 +66,36 @@ progress, severe weather days, etc.  Please check back regularly.
 
 <tr>
 <td>Thurs Sept 27</td>
-<td><a href="Lectures/ArgparseSubmodulesPackages.md">Argparse, Submodules & Packages</a></td>
+<td><a href="https://en.wikipedia.org/wiki/IEC_62304">IEC 62304</a></td>
 <td></td>
 </tr>
 <tr>
 <td>Tues Oct 02</td>
+<td><a href="Lectures/ArgparseSubmodulesPackages.md">Argparse, Submodules & Packages</a></td>
+<td></td>
+</tr>
+
+<tr>
+<td>Thurs Oct 04</td>
 <td><a href="Lectures/OOP/PythonClasses.ipynb">Object Oriented Programming</a></td>
 <td><a href="Assignments/06_module_class.md">[06] Convert Module to Class</a></td>
 </tr>
 
 <tr>
-<td>Thurs Oct 04</td>
+<td>Tues Oct 09</td>
+<td>Fall Break</td>
+</tr>
+
+<tr>
+<td>Thurs Oct 11</td>
 <td><a href="Lectures/PropertyDecorators.ipynb">Property Decorators</a></td>
 <td></td>
 </tr>
 
 <tr>
-<td>Tues Oct 09</td>
-<td>Fall Break</td>
-<td><a href="Assignments/HeartRateMonitor/HeartRateMonitor.md">[07] Heart Rate Monitor</a></td>
-</tr>
-
-<tr>
-<td>Thurs Oct 11</td>
-<td><a href="Lectures/pudb.md">Debugging</a> & <a href="Lectures/pip_pkg_install.md">PIP Packages</a></td>
-<td></td>
-</tr>
-
-<tr>
 <td>Tues Oct 16 </td>
-  <td/>
-  <td/>
+<td><a href="Lectures/pudb.md">Debugging</a> & <a href="Lectures/pip_pkg_install.md">PIP Packages</a></td>
+<td><a href="Assignments/HeartRateMonitor/HeartRateMonitor.md">[07] Heart Rate Monitor</a></td>
 </tr>
 
 <tr>
