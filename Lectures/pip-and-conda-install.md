@@ -79,7 +79,10 @@ is done by modifying the `PATH` environment variable.
 
 To fix this error on windows, find the install location of anaconda. There
 should be an `Anaconda3` folder in your user directory. Note the path down for
-this. Then create a `.bashrc` file in your home directory (`vim ~/.bashrc`) and
+this.
+* If you have any trouble finding the `Anaconda3` folder, open the "Anaconda Prompt" (you can find it from the Windows 10 search bar), and type `conda info`. The desired path should be listed under "base environment".
+
+Then create a `.bashrc` file in your home directory (`vim ~/.bashrc`) and
 put the following line in:
 ```
 export PATH=/c/[YOUR PATH TO Anaconda3 folder here]/Scripts:$PATH
