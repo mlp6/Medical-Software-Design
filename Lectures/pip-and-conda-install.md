@@ -51,6 +51,8 @@ to install those requirements in the currently activated virtual environment.
 
 ## Anaconda Setup
 
+A nice tutorial on setting up Anaconda on Windows can be found here: https://medium.com/@GalarnykMichael/install-python-on-windows-anaconda-c63c7c3d1444
+
 [Install anaconda](https://docs.continuum.io/anaconda/install/). 
 
 ### Troubleshooting (skip to next section if no problems)
