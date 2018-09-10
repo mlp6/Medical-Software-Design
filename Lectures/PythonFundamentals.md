@@ -9,9 +9,12 @@
   deployment.
 * Python has a stadard library of functionality; additional functionality is
   imported into projects through additional packages.
-  + PyPI is the most popular repository of Python packages.
-  + `pip` is the tool to install packages from PyPI.
-  + Different projects will require different packages.  Installing just the packages that you need for each Python project:
+  + PyPI is the most popular repository of Python packages.  Conda is an
+    alternative repository.
+  + `pip` is the tool to install packages from PyPI; `conda` for the Conda
+    repositories.
+  + Different projects will require different packages.  Installing just the
+    packages that you need for each Python project:
     - Prevents package version conflicts between different projects.
     - Establishes a minimized storage footprint of packages for each project
       (though commonly-used packages in many projects will be replicated).
