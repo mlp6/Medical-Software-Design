@@ -1,5 +1,9 @@
 # Python Fundamentals
 
+## Installing Python
+
+[How to install pip/conda on Mac/Windows.](pip-and-conda-install.md)
+
 ## Setting Up Virtual Enironments
 * Heavily recommended for local computer usage, 100% required for remote
   deployment.
