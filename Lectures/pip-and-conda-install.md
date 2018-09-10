@@ -106,5 +106,5 @@ dependencies:
 Then:
 ```
 conda env create -f environment.yml  # To create the virtual environment on your computer and install dependencies
-source activate test-environment     # To activate the virtual environment for use
+conda activate test-environment     # To activate the virtual environment for use
 ```
