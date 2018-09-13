@@ -81,6 +81,8 @@ To fix this error on windows, find the install location of anaconda. There
 should be an `Anaconda3` folder in your user directory. Note the path down for
 this.
 * If you have any trouble finding the `Anaconda3` folder, open the "Anaconda Prompt" (you can find it from the Windows 10 search bar), and type `conda info`. The desired path should be listed under "base environment".
+* Note for Windows users: The path listed under Anaconda's "base environment" was written in Windows fomatting (Ex. `C:\Users\name\Anaconda3`). When inserting the path name into the next step, format that path to match Linux formatting (Ex. `/c/Users/name/Anaconda3/`).
+
 
 Then create a `.bashrc` file in your home directory (`vim ~/.bashrc`) and
 put the following line in:
