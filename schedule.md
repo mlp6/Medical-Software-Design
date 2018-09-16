@@ -109,7 +109,7 @@ progress, severe weather days, etc.  Please check back regularly.
 <td>Tues Oct 23</td>
 <!--<td><a href="Lectures/databases/main.md">Introduction to Databases [SK]</a></td>-->
 <!--<td><a href="Lectures/databases/main.md#mini-projectassignment">[08] Heart Rate Storage </a></td>-->
-<td>Matplotlib / Seaborn</td>
+<td><a href="https://realpython.com/python-matplotlib-guide/">Matplotlib</a> / Seaborn</td>
 <td></td>
 </tr>
 
