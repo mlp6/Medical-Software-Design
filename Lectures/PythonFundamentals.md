@@ -52,42 +52,61 @@ for n, val in enumerate(test_tuple):
 ```
 
 ## Modular Coding
-* Modularity will allow for discrete *units *of function to be explicitly *tested*.
-  This is essential in medical software design.
+* Modularity will allow for discrete *units *of function to be explicitly *tested*.  This is essential in medical software design.
 * Modularity will allow the functional logic of software to be more readable.
 * Modularity promotes the reuse of tested and validated code to compose new
   code.
 * A non-object-oriented example of Python code:
 ```
 def main():
+    """main function
+    This main function captures what actions this script will execute when called
+    by the last line of the script (note functions that are called are named as
+    verbs (actions)).
+    """
     collect_all_csv_filenames()
     read_csv()
     write_data()
 
 
 def collect_all_csv_filenames():
+    """Define a function that, as written, does nothing
+    """
     from glob import glob
     pass
 
 
 def read_csv():
+    """Define another function
+    """
     check_no_spaces()
     check_camel_case()
     pass
 
 
 def write_data(type='json'):
+    """Define another function
+    """
     pass
 
 
 def check_no_spaces():
+    """Define another function
+    """
     pass
 
 
 def check_camel_case():
+    """Define another function
+    """
     pass
     
-
+# The __name__ variable is something automatically set by the Python
+# interpreter based on the file that is being executed.  When this script is
+# being directly executed from the command line, __name__ is set equal to 
+# __main__; when that happens, this conditional statement then executes the
+# main() function defined above.  You need these two lines to get your program 
+# to run as a script from the command line.
 if __name__ == "__main__":
     main()
 ```
