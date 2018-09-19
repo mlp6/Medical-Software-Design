@@ -42,8 +42,7 @@ progress, severe weather days, etc.  Please check back regularly.
 
 <tr>
 <td>Thurs Sept 13</td>
-<td><a href="Lectures/PythonDataStructures.md">Python: Data Structures</a></td>
-<td></td>
+<td>Class Cancelled (Severe Weather)</td>
 </tr>
 
 <tr>
@@ -115,13 +114,13 @@ progress, severe weather days, etc.  Please check back regularly.
 
 <tr>
 <td>Thurs Oct 25</td>
-<td>Pandas (DataFrames)</td>
+<td><a href="Lectures/PythonDataStructures.md">Python: Data Structures</a></td>
 <td></td>
 </tr>
 
 <tr>
 <td>Tues Oct 30</td>
-<td>Data Wrangling</td>
+<td>Pandas (DataFrames), Data Wrangling</td>
 <td></td>
 </tr>
 
