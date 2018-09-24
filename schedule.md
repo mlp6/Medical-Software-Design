@@ -54,13 +54,15 @@ progress, severe weather days, etc.  Please check back regularly.
 <tr>
 <td>Thurs Sept 20</td>
 <td><a href="Lectures/UnitTestingCI.md">Python: Unit Testing (py.test) & Continuous Integration (Travis CI)</a></td>
-<td><a href="Assignments/04_unit_testing_ci.md">[04] Unit Testing & Continuous Integration (Travis CI)</a></td>
+<!--<td><a href="Assignments/04_unit_testing_ci.md">[04] Unit Testing & Continuous Integration (Travis CI)</a></td>-->
+<td></td>
 </tr>
 
 <tr>
 <td>Tues Sept 25</td>
-<td>Python: Docstrings, <a href="Lectures/Exceptions_ExitCodes_Logging.md">Exceptions & Logging</a></td>
-<td><a href="Assignments/05_docstrings_exceptions.md">[05] Docstrings, Exceptions & Logging</a></td>
+<td>Writing comprehensive unit tests</td>
+<td><i>Sakai assignment to be posted</i></td>
+<!--<td><a href="Assignments/05_docstrings_exceptions.md">[05] Docstrings, Exceptions & Logging</a></td>-->
 </tr>
 
 <tr>
@@ -70,6 +72,7 @@ progress, severe weather days, etc.  Please check back regularly.
 </tr>
 <tr>
 <td>Tues Oct 02</td>
+<td>Python: Docstrings, <a href="Lectures/Exceptions_ExitCodes_Logging.md">Exceptions & Logging</a></td>
 <td><a href="Lectures/ArgparseSubmodulesPackages.md">Argparse, Submodules & Packages</a></td>
 <td></td>
 </tr>
@@ -77,7 +80,7 @@ progress, severe weather days, etc.  Please check back regularly.
 <tr>
 <td>Thurs Oct 04</td>
 <td><a href="Lectures/OOP/PythonClasses.ipynb">Object Oriented Programming</a></td>
-<td><a href="Assignments/06_module_class.md">[06] Convert Module to Class</a></td>
+<!--<td><a href="Assignments/06_module_class.md">[06] Convert Module to Class</a></td>-->
 </tr>
 
 <tr>
