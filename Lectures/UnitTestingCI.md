@@ -33,6 +33,8 @@ repositories!
 language: python
 python:
       - "3.6"
+cache:
+      - pip
 install:
       - pip install -r requirements.txt
 script:
