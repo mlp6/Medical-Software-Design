@@ -55,14 +55,13 @@ progress, severe weather days, etc.  Please check back regularly.
 <tr>
 <td>Thurs Sept 20</td>
 <td><a href="Lectures/UnitTestingCI.md">Python: Unit Testing (py.test) & Continuous Integration (Travis CI)</a></td>
-<td><a href="Assignments/04_unit_testing_ci_F2018.md">[04] Unit Testing & Continuous Integration (Travis CI)</a></td>
 <td></td>
 </tr>
 
 <tr>
 <td>Tues Sept 25</td>
   <td> <a href="Lectures/UnitTestingCI.md#unit-testing--continuous-integration-ii">Writing comprehensive unit tests</a> </td>
-<td><i>Sakai assignment to be posted</i></td>
+<td><a href="Assignments/04_unit_testing_ci_F2018.md">[04] Unit Testing & Continuous Integration (Travis CI)</a></td>
 <!--<td><a href="Assignments/05_docstrings_exceptions.md">[05] Docstrings, Exceptions & Logging</a></td>-->
 </tr>
 
