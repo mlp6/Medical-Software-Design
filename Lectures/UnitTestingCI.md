@@ -107,3 +107,4 @@ The list of tuples is the list of input & expected output arguments to call the 
 
 You can see a live example of this working code and play around with it yourself [here](unit_testing/)
 
+__Note__:  By adding the decorator described above, we now have a specific reference to pytest in our code file.  For the decorator to be recognized, we must import pytest in the module (```import pytest```) for the decorator to work. 
