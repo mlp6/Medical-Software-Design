@@ -108,3 +108,17 @@ The list of tuples is the list of input & expected output arguments to call the 
 You can see a live example of this working code and play around with it yourself [here](unit_testing/)
 
 __Note__:  By adding the decorator described above, we now have a specific reference to pytest in our code file.  For the decorator to be recognized, we must import pytest in the module (```import pytest```) for the decorator to work. 
+
+# Testing Fixtures
+* https://docs.pytest.org/en/latest/fixture.html
+* http://pythontesting.net/framework/pytest/pytest-fixtures/
+
+# Other Type of Software Testing
+1. Integration Testing (how do all of the units work together)
+2. System Testing (does the whole package work)
+3. User Testing (alpha / beta; what breaks)
+Nice article: https://www.business2community.com/tech-gadgets/4-types-software-testing-use-01704964#DEr51MdDRpj4zXyg.97
+
+# Resources
+* http://pythontesting.net/start-here/
+* https://docs.pytest.org/en/latest/
