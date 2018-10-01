@@ -14,25 +14,6 @@ framework is the same- catch that there is an error in the program, show that
 there is an error to the user, try to fix the error or break out of program (in
 real clients, the latter is a huge red flag)
 
-## Ignoring IDE-generated files
-Several groups are hitting an issue with conflicts of files in their
-repositories that should not actually be committed.  One such example is the
-directory .idea/ that is created by PyCharm.  That directory contains local
-configuration files for your PyCharm environment, but that can quickly cause
-problems when different developers use different settings.  You can manually
-not add the `.idea/*` files to your commit queues, but if you would like git to
-ignore that entire directory, then you can create a .gitignore file in the root
-directory of your repository that containts a line: .idea git will ignore any
-of the contents of .gitignore when displaying file status, etc.  You can
-forcibly override the file ignores if you had to at some point.  If you have
-already commited and pushed .idea/ to GitHub, you can remove the directory from
-git--but keep it locally--by using `git rm --cached .idea/` from the root-level
-of your repository.  Other good things to include in your .gitignore file
-includes `__pycache__` (cached files that can conflict when run on different
-OSs) and `*.pyc` files that are bytecompiled intermediates that can also
-conflict on different systems.
-
-
 Assignment - install postman (https://www.getpostman.com/) - consider using
 python to act as the client?  Some folks got confused of what postman was doing
 and why it couldn’t be done with python...

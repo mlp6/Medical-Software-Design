@@ -13,14 +13,14 @@ repository name with `$LOCALREPONAME`.
 
 * To work in your cloned repository, you will need to change into the directory
   (`$LOCALREPONAME`) that was created by the clone operation.  A nice
-  walkthrough of this process is summarized in
+  walk-through of this process is summarized in
   [GitBashFolders](GitBashFolders/GitBashFolders.md).
 
 * How do I figure out what files in my local repository have changed or their status in the git commit process?
 ```
 git status
 ```
-This will show files that are untracked (not under git version control),
+This will show files that are not tracked (not under git version control),
 modified (changed since last committed version), and files that are queued for
 commit.
 * How do I see what has changed in a file since it was last committed?
@@ -70,7 +70,7 @@ git checkout $BRANCHNAME
 # can do both of those steps at once
 git checkout -b $BRANCHNAME
 ```
-I want to push a new branch to GitHUb; what do I have to do?
+I want to push a new branch to GitHub; what do I have to do?
 ```
 # the very first time you go to push content to a new branch on the origin, you
 # need to tell the origin to create that branch
@@ -90,11 +90,28 @@ git push --set-origin origin $BRANCHNAME
 * One way that branches can be merged into `master` is using Pull Requests on GitHub
 
 ## Ignoring local files from git control
-Text editors and IDEs can create a lot of temporary files in your repository
-that you do not want to share with collaborators.  Additionally, you may have
-test data and scripts that you also don't want to share.  Instead of having
-these files constantly show up in your `git status` output, you can tell git to
+Text editors, IDEs, and Python itself can create a lot of temporary files in
+your repository that you do not want to share with collaborators because they
+can cause conflicts with another user's local configuration and can be quite
+large.  Examples of this include:
+* `__pycache__/` (Python; will cause conflicts)
+* `*.pyc` (Python; will cause conflicts)
+* `.idea/` (PyCharm, user-specific)
+* `.venv/.env/env/venv/` (Python virtualenv, can be large)
+
+Additionally, you may have test data and scripts that you also don't want to
+share.  
+
+Instead of having these files constantly show up in your `git status` output
+and be game to inadvertently be added to the git history, you can tell git to
 ignore these files by creating a `.gitignore` files that contains file and
 directory name patterns that you want to ignore.  If there are files that you
 very commonly need to ignore in your repositories, you can add them to a file
 in your home directory: `$HOME/.gitignore_global`.
+
+:question: What if I already committed these files by mistake?  
+If you want to remove these sort of files from your git history (moving
+forward), but want to retain you local copy, you can use the command `git rm
+--cached`.  (Removing these files from your existing git commit history is
+another ball of wax, covered in some detail here:
+https://help.github.com/articles/removing-sensitive-data-from-a-repository/)
