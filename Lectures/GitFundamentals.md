@@ -48,6 +48,7 @@ git commit
 files that have been previously added to the repository, you can add an commit
 using the following command: `git commit -am 'commit message'`.
 
+
 * How do I send or get committed changes from GitHub (your default remote `origin`)?
 ```
 git push
@@ -58,6 +59,21 @@ git pull
 git remote
 ```
 You can add, remove and modify remote URLs with this same command.
+
+## What should a `git` commit message contain?
+This is a matter of personal preference and might be dictated by the project you are working on, but I like to adhere to the following commit message template:
+```
+# If applied, this commit will…
+
+
+# Explain why this change is being made
+
+# Provide links to any relevant tickets, articles or other resources
+
+```
+Credit to this article for providing this template: https://dev.to/shreyasminocha/how-i-do-my-git-commits-34d
+
+Another great resource for guidance on this: https://github.com/spring-projects/spring-framework/blob/30bce7/CONTRIBUTING.md#format-commit-messages
 
 ## Bug Fix / Feature Branch Development
 How do I create a new branch to fix a bug / develop a new feature?
