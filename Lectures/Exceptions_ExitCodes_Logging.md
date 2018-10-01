@@ -101,3 +101,5 @@ Standard levels in the logging module include:
 https://docs.python.org/3/howto/logging.html#logging-basic-tutorial
 
 Example code: [example_logging.py](example_logging.py)
+
+Elegant way to use decorators to clean up the logging syntax: https://hackaday.com/2018/08/31/an-introduction-to-decorators-in-python/
