@@ -102,7 +102,7 @@ progress, severe weather days, etc.  Please check back regularly.
 <tr>
 <td>Thurs Oct 18</td>
 <!--<td><a href="Lectures/cloud_deployment/main.md">Production deployment to a cloud machine [SK]</a></td>-->
-<td>Jupyter Notebooks</td>
+<td><a href="https://build-system.fman.io/pyqt5-tutorial">Building a GUI with Qt5</a></td>
 <td></td>
 </tr>
 
@@ -179,7 +179,7 @@ progress, severe weather days, etc.  Please check back regularly.
 
 <tr>
 <td>Thurs Nov 29</td>
-<td>LDOC! IEC 62304 [MLP]</td>
+<td>LDOC!</td>
 <td></td>
 </tr>
 
