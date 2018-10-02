@@ -19,7 +19,7 @@ class via email.*
 ## Teaching Assistants
 Ismael Perez  
 <ismael.perez@duke.edu>   
-Office Hours: Tuesday 14:00-15:00 (Gross Hall 3rd Floor Cubicle 26)
+Office Hours: Tuesday 14:00-15:00 (Gross Hall 3rd Floor Cubicle 36)
 
 Tanvi Kamat Tarcar  
 <tanvi.kamat.tarcar@duke.edu>  
