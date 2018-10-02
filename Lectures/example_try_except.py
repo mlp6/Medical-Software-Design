@@ -19,18 +19,18 @@ def print_example():
 
 def div_example():
     import logging
-    logging.basicConfig(filename='divlog.txt', level=logging.DEBUG) 
+    logging.basicConfig(filename='divlog.txt', level=logging.DEBUG)
 
     for x in [3, 5, 7, 0, 9]:
         # comment out this next line
         #y = 10/x
-    
+
         try:
             y = 10/x
         except ZeroDivisionError:
             logging.error("div by 0, skipping this iteration")
             #y = None
-            continue 
+            continue
             #break
 
         print(y)

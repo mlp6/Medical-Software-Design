@@ -25,6 +25,8 @@ SyntaxError: Missing parentheses in call to 'print'
 
 The arrow points to where the syntax is invalid, and the error message [attempts to] convey what is wrong.
 
+Relevant Python documentation: https://docs.python.org/3/tutorial/errors.html
+
 ## Exceptions
 
 In contrast, Exceptions are raised when you have valid syntax, but an error occurs when your command attempts to run.  For example:
@@ -49,6 +51,26 @@ Other common exception errors are:
   * ``EOFError``
 
 There is a comprehensive list of built-in exceptions here: https://docs.python.org/3/library/exceptions.html
+
+## How do we raise exceptions?
+To raise an exception in python to indicate an error, simply:                                                                                                                                                                          
+```py                                                                                                                                                                                                                                  
+raise ValueError("This message string gives more information and context about why this was raised.")                                                                                                                                  
+```
+You might want to raise an exception if inputs to a function are the wrong
+type. For example:
+
+```py                                                                                                                                                                                                                                  
+# This function may raise a TypeError if called with certain args:                                                                                                                                                                     
+def add(a, b):                                                                                                                                                                                                                         
+    if type(a) is not int or type(b) is not int:                                                                                                                                                                                       
+        raise TypeError("Inputs must be python ints")                                                                                                                                                                                  
+    return a + b                                                                                                                                                                                                                       
+```
+If the inputs to this function are not ints, we will notified the caller of
+this function (and the program as a whole) that an error condition has occured
+(and in particular it's a `TypeError`) by raising this exception. If we do not
+handle this exception then the program will crash.           
 
 ## How do we deal with exceptions gracefully?
 Syntax errors are caught and corrected with our unit tests and development testing, but exceptions can happen during device function.  We don't want our code to abruptly stop when an exception occurs, but instead, we want a planned procedure to deal with exceptions.
