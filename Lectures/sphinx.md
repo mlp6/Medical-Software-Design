@@ -1,6 +1,6 @@
 # Sphinx Documentation
 
-Sphinx (http://sphinx-doc.org/) is a documentation generation engine for Python
+[Sphinx](http://sphinx-doc.org/) is a documentation generation engine for Python
 that is extremely powerful and lots of configuration options.  Here's a quick
 start to automatically generate API-like documentation using docstrings:
 
@@ -27,3 +27,5 @@ and edit, along with the 2 import statements of the `os` and `sys` modules.
   * You may want to add `_build/` to your `.gitignore` files:
 1. Run Makefile to generate documentation (e.g., ``make html``).  This will
    create `docs/_build/html` with the default webpage being `index.html`.
+
+**Example:** https://mlp6.github.io/fem/

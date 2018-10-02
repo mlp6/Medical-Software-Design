@@ -113,6 +113,8 @@ __Note__:  By adding the decorator described above, we now have a specific refer
 * https://docs.pytest.org/en/latest/fixture.html
 * http://pythontesting.net/framework/pytest/pytest-fixtures/
 
+Example: https://github.com/mlp6/fem/blob/master/tests/conftest.py
+
 # Other Type of Software Testing
 1. Integration Testing (how do all of the units work together)
 2. System Testing (does the whole package work)

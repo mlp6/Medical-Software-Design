@@ -71,7 +71,7 @@ progress, severe weather days, etc.  Please check back regularly.
 </tr>
 <tr>
 <td>Tues Oct 02</td>
-<td> <a href="Lectures/UnitTestingCI.md#testing-fixtures">Testing Fixtures</a>; <a href="https://www.python.org/dev/peps/pep-0257/">Docstrings</a>; <a href="Lectures/Exceptions_ExitCodes_Logging.md">Exceptions & Logging</a></td>
+<td> <a href="Lectures/UnitTestingCI.md#testing-fixtures">Testing Fixtures</a>; <a href="Lectures/docstrings.md">Docstrings</a>; <a href="Lectures/Exceptions_ExitCodes_Logging.md">Exceptions & Logging</a></td>
 <td>[Python Fundamentals](Assignments/PythonFundamentals.ipynb) (Sakai) & IEC 62304 Assignment (Sakai)</td>
 </tr>
 
