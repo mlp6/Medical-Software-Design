@@ -10,3 +10,4 @@
 *.fls
 *.fdb_latexmk
 env/
+.venv/
