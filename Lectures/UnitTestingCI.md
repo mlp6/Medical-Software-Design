@@ -109,18 +109,25 @@ You can see a live example of this working code and play around with it yourself
 
 __Note__:  By adding the decorator described above, we now have a specific reference to pytest in our code file.  For the decorator to be recognized, we must import pytest in the module (```import pytest```) for the decorator to work. 
 
-# Testing Fixtures
+## Approximations
+Floating point values can have numerical round-off error, which is a common way
+for direct-equality assertions to fail.  There are several elegant ways to deal
+with this:
+* https://docs.pytest.org/en/latest/reference.html#pytest-approx
+* https://docs.scipy.org/doc/numpy/reference/generated/numpy.testing.assert_approx_equal.html
+
+## Testing Fixtures
 * https://docs.pytest.org/en/latest/fixture.html
 * http://pythontesting.net/framework/pytest/pytest-fixtures/
 
 Example: https://github.com/mlp6/fem/blob/master/tests/conftest.py
 
-# Other Type of Software Testing
+## Other Type of Software Testing
 1. Integration Testing (how do all of the units work together)
 2. System Testing (does the whole package work)
 3. User Testing (alpha / beta; what breaks)
 Nice article: https://www.business2community.com/tech-gadgets/4-types-software-testing-use-01704964#DEr51MdDRpj4zXyg.97
 
-# Resources
+## Resources
 * http://pythontesting.net/start-here/
 * https://docs.pytest.org/en/latest/

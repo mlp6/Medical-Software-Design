@@ -54,14 +54,14 @@ progress, severe weather days, etc.  Please check back regularly.
 
 <tr>
 <td>Thurs Sept 20</td>
-<td><a href="Lectures/UnitTestingCI.md">Python: Unit Testing (py.test) & Continuous Integration (Travis CI)</a></td>
+<td><a href="Lectures/UnitTestingCI.md">Unit Testing: (py.test) & Continuous Integration (Travis CI)</a></td>
 <td></td>
 </tr>
 
 <tr>
 <td>Tues Sept 25</td>
-<td> <a href="Lectures/UnitTestingCI.md#unit-testing--continuous-integration-ii">Writing comprehensive unit tests</a> </td>
-<td><a href="Assignments/04_unit_testing_ci_F2018.md">[04] Unit Testing & Continuous Integration (Travis CI)</a></td>
+<td> <a href="Lectures/UnitTestingCI.md#unit-testing--continuous-integration-ii">Unit Testing: Comprehensive unit tests</a> </td>
+<td><a href="Assignments/04_unit_testing_ci_F2018.md">Unit Testing & Continuous Integration (Travis CI)</a></td>
 </tr>
 
 <tr>
@@ -71,31 +71,31 @@ progress, severe weather days, etc.  Please check back regularly.
 </tr>
 <tr>
 <td>Tues Oct 02</td>
-<td> <a href="Lectures/UnitTestingCI.md#testing-fixtures">Testing Fixtures</a>; <a href="Lectures/docstrings.md">Docstrings</a>; <a href="Lectures/Exceptions_ExitCodes_Logging.md">Exceptions & Logging</a></td>
+<td> <a href="Lectures/UnitTestingCI.md">Unit Testing: Approximations, fixtures & more</a>; <a href="Lectures/docstrings.md">Docstrings</a>; <a href="Lectures/Exceptions_ExitCodes_Logging.md">Exceptions & Logging</a></td>
 <td>[Python Fundamentals](Assignments/PythonFundamentals.ipynb) (Sakai) & IEC 62304 Assignment (Sakai)</td>
 </tr>
 
 <tr>
 <td>Thurs Oct 04</td>
-<td><a href="Lectures/ArgparseSubmodulesPackages.md">Argparse, Submodules & Packages</a></td>
+<td><a href="Lectures/PropertyDecorators.ipynb">Property Decorators</a></td>
 <!--<td><a href="Assignments/06_module_class.md">[06] Convert Module to Class</a></td>-->
 </tr>
 
 <tr>
 <td>Tues Oct 09</td>
 <td>Fall Break</td>
-<td><a href="Lectures/OOP/PythonClasses.ipynb">Object Oriented Programming</a></td>
+<td></td>
 </tr>
 
 <tr>
 <td>Thurs Oct 11</td>
-<td><a href="Lectures/PropertyDecorators.ipynb">Property Decorators</a></td>
+<td><a href="Lectures/pudb.md">Debugging</a> & <a href="Lectures/pip_pkg_install.md">PIP Packages</a></td>
 <td></td>
 </tr>
 
 <tr>
 <td>Tues Oct 16 </td>
-<td><a href="Lectures/pudb.md">Debugging</a> & <a href="Lectures/pip_pkg_install.md">PIP Packages</a></td>
+<td><a href="Lectures/OOP/PythonClasses.ipynb">Object Oriented Programming</a>; <a href="Lectures/ArgparseSubmodulesPackages.md">Argparse, Submodules & Packages</a></td>
 <td><a href="Assignments/HeartRateMonitor/HeartRateMonitor.md">[07] Heart Rate Monitor</a></td>
 </tr>
 
