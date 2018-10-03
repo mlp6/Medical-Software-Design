@@ -20,3 +20,7 @@
 
 * Compare `pudb` terminal usage with PyCharm debugger implementation
   (https://www.jetbrains.com/help/pycharm/debugging-code.html)
+
+* `py.test` can be called to drop into `pudb` when a test fails using
+  [pytest-pudb](https://docs.pytest.org/en/latest/usage.html#dropping-to-pdb-python-debugger-on-failures).
+  Example: `py.test -v test_pytest_pudb.py`
