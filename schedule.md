@@ -25,7 +25,7 @@ progress, severe weather days, etc.  Please check back regularly.
 <tr>
 <td>Tues Sept 04</td>
 <td><a href="Lectures/GitWorkflow.md">Git Workflow</a></td>
-<td><a href="Assignments/getting_started_git.md">[02] Getting Started with git</a></td>
+<td><a href="Assignments/getting_started_git.md">Getting Started with git</a></td>
 </tr>
 
 <tr>
@@ -77,7 +77,7 @@ progress, severe weather days, etc.  Please check back regularly.
 
 <tr>
 <td>Thurs Oct 04</td>
-<td><a href="Lectures/PropertyDecorators.ipynb">Property Decorators</a></td>
+<td>[PyCharm](Resources/pycharm.md); <a href="Lectures/pudb.md">Debugging</a>; <a href="Lectures/PropertyDecorators.ipynb">Property Decorators</a></td>
 <!--<td><a href="Assignments/06_module_class.md">[06] Convert Module to Class</a></td>-->
 </tr>
 
@@ -89,14 +89,14 @@ progress, severe weather days, etc.  Please check back regularly.
 
 <tr>
 <td>Thurs Oct 11</td>
-<td><a href="Lectures/pudb.md">Debugging</a> & <a href="Lectures/pip_pkg_install.md">PIP Packages</a></td>
-<td></td>
+<td><a href="Lectures/pip_pkg_install.md">PIP Packages</a></td>
+<td><a href="Assignments/HeartRateMonitor/HeartRateMonitor.md">Heart Rate Monitor</a></td>
 </tr>
 
 <tr>
 <td>Tues Oct 16 </td>
 <td><a href="Lectures/OOP/PythonClasses.ipynb">Object Oriented Programming</a>; <a href="Lectures/ArgparseSubmodulesPackages.md">Argparse, Submodules & Packages</a></td>
-<td><a href="Assignments/HeartRateMonitor/HeartRateMonitor.md">[07] Heart Rate Monitor</a></td>
+<td></td>
 </tr>
 
 <tr>

@@ -1,24 +1,22 @@
-# Debugging using pdb or pudb
+# Debugging (pdb/pudb)
 
-Python debugger! 
-Can put breakpoints in code to see state of variables
+* Can put breakpoints in code to see state of variables
 
-Can see what packages are installed with 
-`pip freeze`
+* Not good practice to keep debugger always active
 
-* Useful:
-If you want to create a `requirements.txt` file from a set of packages that you have just pip installed (without virtual environemnt), you can run  `pip freeze > requirements.txt`
+* Set breakpoint with `pudb.set_trace()`.  Example code: [example_pudb.py](example_pudb.py)
 
-Not good practice to keep debugger always active
+* Halts execution & allows you to inspect entire variable workspace
 
-Set breakpoint with...
-`pudb.set_trace()`
-Halts execution & allows you to inspect entire variable workspace
+* Click `!` -> puts you in interactive `ipython` environment that allows you to
+  see variables & work with them (can manually test things out and see what
+  happens)
 
-Click `!` -> puts you in interactive iPython environment that allows you to see variables & work with them (can manually test things out and see what happens)
+* When done, exit iPython -> back in debugger
 
-When done, exit iPython -> back in debugger
+* Can read more about `pudb` here: https://documen.tician.de/pudb/starting.html
 
-Can read more about [pudb here](https://documen.tician.de/pudb/starting.html)
+* If `pudb` module is absent, can set a conditional to ignore any `pudb` calls.
 
-If pudb module is absent, can set a conditional to ignore any pudb calls
+* Compare `pudb` terminal usage with PyCharm debugger implementation
+  (https://www.jetbrains.com/help/pycharm/debugging-code.html)

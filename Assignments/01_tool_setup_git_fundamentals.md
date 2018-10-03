@@ -20,7 +20,7 @@
   + [GitHub Atom](https://atom.io/)
   + [Visual Studio Code](https://code.visualstudio.com/)
   + [Sublime Text](https://www.sublimetext.com/)
-  + [PyCharm](https://www.jetbrains.com/student/) (full-featured IDE, professional edition free to use in academic setting)
+  + [PyCharm](Resources/pycharm.md) (full-featured IDE; professional edition free to use in academic setting)
 
 ## Learning Git
 1. Never used git before?  Start with these resources:
