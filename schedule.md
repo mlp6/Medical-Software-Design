@@ -89,20 +89,20 @@ progress, severe weather days, etc.  Please check back regularly.
 
 <tr>
 <td>Thurs Oct 11</td>
-<td>Functional Decomposition</td>
+<td>Functional Decomposition; <a href="Lectures/PythonDataStructures.md">Python: Data Structures</a></td>
 <td><a href="Assignments/HeartRateMonitor/HeartRateMonitor.md">Heart Rate Monitor</a></td>
 </tr>
 
 <tr>
 <td>Tues Oct 16 </td>
-<td><a href="Lectures/PropertyDecorators.ipynb">Property Decorators</a>; <a href="Lectures/OOP/PythonClasses.ipynb">Object Oriented Programming</a>; <a href="Lectures/ArgparseSubmodulesPackages.md">Argparse, Submodules & Packages</a></td>
+<td><a href="Lectures/PropertyDecorators.ipynb">Property Decorators</a>; <a href="Lectures/ArgparseSubmodulesPackages.md">Argparse, Submodules & Packages</a></td>
 <td></td>
 </tr>
 
 <tr>
 <td>Thurs Oct 18</td>
+<td><a href="Lectures/OOP/PythonClasses.ipynb">Object Oriented Programming</a></td>
 <!--<td><a href="Lectures/cloud_deployment/main.md">Production deployment to a cloud machine [SK]</a></td>-->
-<td><a href="Lectures/PythonDataStructures.md">Python: Data Structures</a></td>
 <td></td>
 </tr>
 
