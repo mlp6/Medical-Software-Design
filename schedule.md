@@ -54,7 +54,7 @@ progress, severe weather days, etc.  Please check back regularly.
 
 <tr>
 <td>Thurs Sept 20</td>
-<td><a href="Lectures/UnitTestingCI.md">Unit Testing: (py.test) & Continuous Integration (Travis CI)</a></td>
+<td><a href="Lectures/UnitTestingCI.md">Unit Testing: (py.test) & Continuous Integration (Travis CI) [SK]</a></td>
 <td></td>
 </tr>
 
@@ -71,7 +71,7 @@ progress, severe weather days, etc.  Please check back regularly.
 </tr>
 <tr>
 <td>Tues Oct 02</td>
-<td> <a href="Lectures/UnitTestingCI.md">Unit Testing: Approximations, fixtures & more</a>; <a href="Lectures/docstrings.md">Docstrings</a>; <a href="Lectures/Exceptions_ExitCodes_Logging.md">Exceptions & Logging</a></td>
+<td> <a href="Lectures/UnitTestingCI.md">Unit Testing: Approximations, fixtures & more</a>; <a href="Lectures/docstrings.md">Docstrings</a>; </td>
 <td><a href="Assignments/PythonFundamentals.ipynb">PythonFundamentals.ipynb</a> (Sakai) & IEC 62304 Assessment (Sakai)</td>
 </tr>
 
@@ -95,7 +95,7 @@ progress, severe weather days, etc.  Please check back regularly.
 
 <tr>
 <td>Tues Oct 16 </td>
-<td><a href="Lectures/PropertyDecorators.ipynb">Property Decorators</a>; <a href="Lectures/ArgparseSubmodulesPackages.md">Argparse, Submodules & Packages</a></td>
+<td><a href="Lectures/Exceptions_ExitCodes_Logging.md">Exceptions & Logging [SK]</a></td>
 <td></td>
 </tr>
 

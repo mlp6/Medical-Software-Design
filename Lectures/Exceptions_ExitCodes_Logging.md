@@ -70,7 +70,12 @@ def add(a, b):
 If the inputs to this function are not ints, we will notified the caller of
 this function (and the program as a whole) that an error condition has occured
 (and in particular it's a `TypeError`) by raising this exception. If we do not
-handle this exception then the program will crash.           
+handle this exception then the program will crash. 
+
+Generally, you should raise exceptions in your code to signal that some sort of error has occured in your function (like inputs being the wrong type) that you cannot proceed with execution of the code. Generally, you'll be raising exceptions from functions (say, `add`) and the goal of raising an exception is to notify the _caller_ of add (usually your `main` function) that something has gone wrong and `add` cannot proceed as intended. 
+
+## What happens when an exception is raised?
+When you raise an exception, code execution stops at that point and the exception propogates up to the caller of the function an exception was thrown in. The function does not return anything. The caller of your function can deal with the exception (for example, re-prompting the user for proper input) or it can allow the exception to propogate through the program until it crashes with an error message. 
 
 ## How do we deal with exceptions gracefully?
 Syntax errors are caught and corrected with our unit tests and development testing, but exceptions can happen during device function.  We don't want our code to abruptly stop when an exception occurs, but instead, we want a planned procedure to deal with exceptions.
@@ -81,7 +86,7 @@ Example code:  [example_try_except.py](example_try_except.py)
 
 ## Pseudo-code example for running out of storage space
 
-```
+```py
 def main():
     import errno
     while True:
@@ -99,6 +104,14 @@ def main():
 
 ```
 
+## Testing that your code throws an Exception
+You will want to test that your code throws certain exceptions when given certain inputs or put in certain situations. This can be done as follows:
+```py
+def test_something():
+    import pytest
+    with pytest.raises(TypeError):
+        func_that_raises_type_error(bad_input)
+```
 
 ## Warnings
 Items that require some user attention, but do not demand raising a full exception.  The ``warnings`` package provides this functionality.
@@ -125,3 +138,13 @@ https://docs.python.org/3/howto/logging.html#logging-basic-tutorial
 Example code: [example_logging.py](example_logging.py)
 
 Elegant way to use decorators to clean up the logging syntax: https://hackaday.com/2018/08/31/an-introduction-to-decorators-in-python/
+
+# Excercise 
+Write a program that sums up all of the numbers in a file on your machine. The text file _should_ contain one number per line in the file. Some lines of the file may not contain numbers (which would lead to a `ValueError`), you should be able to handle this and simply skip over those lines in your sum. Sometimes the file may not exist (`FileNotFoundError`), you should also handle this properly. The text files could look like the following:
+
+```
+1
+20
+blah
+20
+```
