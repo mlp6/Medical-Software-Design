@@ -101,7 +101,7 @@ progress, severe weather days, etc.  Please check back regularly.
 
 <tr>
 <td>Thurs Oct 18</td>
-<td><a href="Lectures/pip_pkg_install.md">PIP Packages</a>; <a href="Lectures/OOP/PythonClasses.ipynb">Object Oriented Programming</a></td>
+<td><a href="Lectures/DictionaryTypeClassesPropertyDecorator.md">Dictionary Type, Classes, Property Decorators, Numpy Docs</a></td>
 <!--<td><a href="Lectures/cloud_deployment/main.md">Production deployment to a cloud machine [SK]</a></td>-->
 <td></td>
 </tr>

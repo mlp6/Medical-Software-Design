@@ -2,7 +2,8 @@
 
 [Sphinx](http://sphinx-doc.org/) is a documentation generation engine for Python
 that is extremely powerful and lots of configuration options.  Here's a quick
-start to automatically generate API-like documentation using docstrings:
+start to automatically generate API-like documentation using docstrings in reStructuredText format.
+(For Google or Numpy docstring formats, see modified instructions in the Naploean section at bottom of page.)
 
 1. ``sphinx-quickstart docs``
 
@@ -30,3 +31,18 @@ and edit, along with the 2 import statements of the `os` and `sys` modules.
 
 **Example:** https://mlp6.github.io/fem/
 Relevant GitHub documentation: https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/#publishing-your-github-pages-site-from-a-docs-folder-on-your-master-branch
+
+## Google or Numpy Docstrings
+To use sphinx with Google or Numpy style docstrings, use the [Naploen](http://www.sphinx-doc.org/en/master/usage/extensions/napoleon.html) extension.  Follow the instructions above with 
+the following additions/changes:
+
+When editing the `docs/conf.py` file, include the napoleon extension as follows:
+```
+# Add napoleon to the extensions list
+extensions = ['sphinx.ext.napolen']
+```
+When running the `sphinx-apidoc` command, the options are somewhat different:
+```
+sphinx-apidoc -f -o docs .
+```
+Visit http://www.sphinx-doc.org/en/master/usage/extensions/napoleon.html for full documentation on Napoleon.
