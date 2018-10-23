@@ -110,20 +110,21 @@ progress, severe weather days, etc.  Please check back regularly.
 <td>Tues Oct 23</td>
 <!--<td><a href="Lectures/databases/main.md">Introduction to Databases [SK]</a></td>-->
 <!--<td><a href="Lectures/databases/main.md#mini-projectassignment">[08] Heart Rate Storage </a></td>-->
-<td><a href="https://realpython.com/python-matplotlib-guide/">Matplotlib</a> / Seaborn</td>
+<td>HRM Assignment Work</td>
 <td></td>
 </tr>
 
 <tr>
 <td>Thurs Oct 25</td>
-<td><a href="https://build-system.fman.io/pyqt5-tutorial">Building a GUI with Qt5</a></td>
+<td>HRM Assignment Work</td>
 <td></td>
 </tr>
 
 <tr>
 <td>Tues Oct 30</td>
-<td>Pandas (DataFrames), Data Wrangling</td>
-<td></td>
+<td><a href="https://realpython.com/python-matplotlib-guide/">Matplotlib</a> / Seaborn</td>
+<td><a href="https://build-system.fman.io/pyqt5-tutorial">Building a GUI with Qt5</a></td>
+<!--<td>Pandas (DataFrames), Data Wrangling</td>-->
 </tr>
 
 <tr>
