@@ -33,13 +33,13 @@ and edit, along with the 2 import statements of the `os` and `sys` modules.
 Relevant GitHub documentation: https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/#publishing-your-github-pages-site-from-a-docs-folder-on-your-master-branch
 
 ## Google or Numpy Docstrings
-To use sphinx with Google or Numpy style docstrings, use the [Naploen](http://www.sphinx-doc.org/en/master/usage/extensions/napoleon.html) extension.  Follow the instructions above with 
+To use sphinx with Google or Numpy style docstrings, use the [Napleon](http://www.sphinx-doc.org/en/master/usage/extensions/napoleon.html) extension.  Follow the instructions above with 
 the following additions/changes:
 
 When editing the `docs/conf.py` file, include the napoleon extension as follows:
 ```
 # Add napoleon to the extensions list
-extensions = ['sphinx.ext.napolen']
+extensions = ['sphinx.ext.napoleon']
 ```
 When running the `sphinx-apidoc` command, the options are somewhat different:
 ```
