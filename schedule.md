@@ -122,22 +122,24 @@ progress, severe weather days, etc.  Please check back regularly.
 
 <tr>
 <td>Tues Oct 30</td>
-<td><a href="https://realpython.com/python-matplotlib-guide/">Matplotlib</a> / Seaborn</td>
-<td><a href="https://build-system.fman.io/pyqt5-tutorial">Building a GUI with Qt5</a></td>
+<td><a href="Lectures/intro_web_services">Intro to Web Services & Cloud-connected Devices [SK]</a></td>
+<td></td>
+<!--<td><a href="https://realpython.com/python-matplotlib-guide/">Matplotlib</a> / Seaborn</td>-->
+<!--<td><a href="https://build-system.fman.io/pyqt5-tutorial">Building a GUI with Qt5</a></td>-->
 <!--<td>Pandas (DataFrames), Data Wrangling</td>-->
 </tr>
 
 <tr>
 <td>Thurs Nov 01</td>
-<td><a href="Lectures/intro_web_services">Intro to Web Services & Cloud-connected Devices [SK]</a></td>
+  <td><a href="https://github.com/mlp6/Medical-Software-Design/blob/master/Lectures/flask/flask.md">Python Flask, API design, virtual machines (Duke OIT VMs) [SK]</a></td>
 <td>[TBD] Call web services (SendGrid, Twilio, etc)</td>
 </tr>
 
 <tr>
   <td>Tues Nov 06</td>
 <!--<td><a href="Lectures/react/intro.md">Web/Mobile client (ReactJS) Introduction [SK]</a></td>-->
-  <td><a href="https://github.com/mlp6/Medical-Software-Design/blob/master/Lectures/flask/flask.md">Python Flask, API design, virtual machines (Duke OIT VMs) [SK]</a></td>
   <td><a href="Lectures/flask/flask.md#mini-project">[Mini-Project] Basic Flask Web Service</a></td>
+<td></td>
 </tr>
 
 <tr>
