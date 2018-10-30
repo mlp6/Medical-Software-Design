@@ -10,7 +10,7 @@ services:
       - FLASK_DEBUG=1
       - FLASK_APP=server.py
       - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
-    command: ["./wait-for-it.sh", "db:5432", "--", "flask", "run", "--host=0.0.0.0"]
+    command: ["./wait-for-it.sh", "db:5432", "--", "gunicorn", "--workers=4", "--bind=0.0.0.0:5000", "server:app"]
   db:
     image: postgres
     environment:

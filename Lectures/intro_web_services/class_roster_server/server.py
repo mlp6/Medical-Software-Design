@@ -7,7 +7,7 @@ import os
 import uuid
 
 app = Flask(__name__)
-engine = create_engine("postgresql://postgres:{0}@db:5432/postgres".format(os.environ.get("POSTGRES_PASSWORD")))
+engine = create_engine("postgresql://postgres:{0}@db:5432/postgres".format(os.environ.get("POSTGRES_PASSWORD")), max_overflow=20)
 Session = sessionmaker(bind=engine)
 Base = declarative_base()
 
@@ -16,16 +16,14 @@ class Student(Base):
     uuid=Column(UUID, primary_key=True)
     first_name=Column("first_name", String(32))
     last_name=Column("last_name", String(32))
-    netid=Column("netid", String(10))
-    team_name=Column("team_name", String(32))
+    netid=Column("netid", String(10)) 
     github_username=Column("github_username", String(32))
 
-    def __init__(self, uuid, first_name, last_name, netid, team_name, github_username):
+    def __init__(self, uuid, first_name, last_name, netid, github_username):
         self.uuid = uuid
         self.first_name = first_name
         self.last_name = last_name
-        self.netid = netid
-        self.team_name = team_name
+        self.netid = netid 
         self.github_username = github_username
     
     def as_dict(self):
@@ -33,8 +31,7 @@ class Student(Base):
             "uuid": self.uuid,
             "first_name": self.first_name,
             "last_name": self.last_name,
-            "netid": self.netid,
-            "team_name": self.team_name,
+            "netid": self.netid, 
             "github_username": self.github_username
         }
 
@@ -43,8 +40,7 @@ Base.metadata.create_all(engine)
 REQUIRED_REQUEST_KEYS = [
     "first_name",
     "last_name",
-    "netid",
-    "team_name",
+    "netid", 
     "github_username"
 ]
 
@@ -86,7 +82,6 @@ def add_student():
         first_name=r['first_name'], 
         last_name=r['last_name'], 
         netid=r['netid'], 
-        team_name=r['team_name'], 
         github_username=r['github_username'])
 
     session.add(s)
