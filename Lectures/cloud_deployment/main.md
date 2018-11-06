@@ -1,15 +1,24 @@
 # Deployment of Flask Servers, Docker introduction
 
 ## Lecture outline
+* Review terminology
+   * API
+   * RESTful APIs
+   * 127.0.0.1
+   * /hello?
+   * GET vs POST
+   * Client vs server?
+   * Where are RESTful APIs used?
 * Review Flask servers
-* Review RESTful APIs
-* Deploying flask servers in production using `gunicorn`
+* Was everyone able to complete the Flask mini-project from last class?
 * OIT Virtual Machine Configuration
+* Deploying flask servers in production using `gunicorn`
+* Databases introduction [time permitting]
 * Docker introduction [time permitting]
 
 
 ## Deploying Flask Servers in Production
-When we run `flask` applications using the `FLASK_APP=server.py flask run` command, we are using Flask's development server to serve requests for our application. The flask development server is useful for debugging and for development but lacks efficiencies and the ability to have process-level load balancing (more on this later) that we might want in production when serving our app to the world. 
+When we run `flask` applications using the `FLASK_APP=server.py flask run` (or `python server.py`) command, we are using Flask's development server to serve requests for our application. The flask development server is useful for debugging and for development but lacks efficiencies and the ability to have process-level load balancing (more on this later) that we might want in production when serving our app to the world. 
 
 ### gunicorn deployment
 
@@ -61,7 +70,6 @@ For your VCMs you should always be using the `vcm` username, so your command wil
 ```sh
 ssh vcm@vcm@vcm-3461.vm.duke.edu
 ```
-
 
 ## Screen
 Screen is a linux program that allows you to create multiple terminal sessions (think "tabs") that can be attached and detached. What this means is that you can spin up a "screen" where you are running a program, detach that "screen" and then logout of the VM without the program on that screen being terminated. These are the screen commands:

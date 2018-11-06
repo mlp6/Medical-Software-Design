@@ -138,7 +138,7 @@ progress, severe weather days, etc.  Please check back regularly.
 <tr>
   <td>Tues Nov 06</td>
 <!--<td><a href="Lectures/react/intro.md">Web/Mobile client (ReactJS) Introduction [SK]</a></td>-->
-  <td><a href="Lectures/flask/flask.md#mini-project">[Mini-Project] Basic Flask Web Service</a></td>
+  <td><a href="Lectures/cloud_deployment/main.md">Flask continued, deployment, production considerations</a></td>
 <td></td>
 </tr>
 
