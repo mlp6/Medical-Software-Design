@@ -147,7 +147,7 @@ progress, severe weather days, etc.  Please check back regularly.
 <!--<td><a href="Lectures/react/lecture2.md">Polished ReactJS + RESTful API Requests [SK]</a></td>-->
 <!--<td><a href="Lectures/react/assignment.md">[09] Heart Rate Physician Client (due 4/4/18 @ 11:59pm)</a></td>-->
   <td><a href="Lectures/databases/main.md">Introduction to Databases [SK]</a></td>
-  <td><a href="Lectures/databases/main.md#mini-projectassignment">Heart Rate Sentinel Server</a></td>
+  <td><a href="Lectures/databases/sentinel-server-assignment.md">Heart Rate Sentinel Server</a></td>
 </tr>
 
 <tr>
