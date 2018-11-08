@@ -1,6 +1,8 @@
 # Heart Rate Sentinel Server
 This assignment will have you build a simple centralized heart rate sentinel server. This server will be built to receive POST requests from mock patient heart rate monitors that contain patient heart rate information over time. If a patient exhibits a tachycardic heart rate, the physician should receive an email warning them. This calculation should be based on age (more info [here](https://en.wikipedia.org/wiki/Tachycardia)). This can be sent using the free [Sendgrid API](https://sendgrid.com/) (there is also a [Sendgrid python package](https://github.com/sendgrid/sendgrid-python) that wraps the API).
 
+Name your repository: `heart_rate_sentinel_server`
+
 * `POST /api/new_patient` with
   ```sh
   {
