@@ -7,7 +7,7 @@ Security is an especially important consideration when working with medical soft
   - Encryption (plaintext, ciphertext)
   - Signing (verification)
   - Encryption vs. Signing
-  - __"Encryption at Rest" ([AES](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard)) (HIPPA)__
+  - __"Encryption at Rest" ([AES](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard), see [pycrypto](https://github.com/dlitz/pycrypto)) (HIPPA)__
   - __"Encryption in Transit" ([TLS/SSL](https://en.wikipedia.org/wiki/Transport_Layer_Security)) (HIPPA)__
   - "End-to-end encryption" (E2EE)
 - [Asymmetric encryption](https://en.wikipedia.org/wiki/Public-key_cryptography)
