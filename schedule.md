@@ -152,7 +152,7 @@ progress, severe weather days, etc.  Please check back regularly.
 
 <tr>
   <td>Tues Nov 13</td>
-  <td><a href="Lectures/databases/main.md">Databases in Health Data Science</a></td>
+  <td><a href="Lectures/security/security.md">Introduction to Security + Assignment Work</a></td>
   <td>TBD</td>
 </tr>
 
