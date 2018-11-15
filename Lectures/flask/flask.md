@@ -15,6 +15,10 @@ def hello():
   """
   return "Hello, world"
   
+@app.route("/data/<name>", methods=["GET"])
+def hello_name(name): # the name variable being passed in here is the string that the client puts in the <name> part of the url
+    return "Hello, {}".format(name)
+  
 @app.route("/data", methods=["GET"])
 def getData():
   """
@@ -76,18 +80,14 @@ Create a flask web service that implements the following RESTful API specificati
     "name": "<your name here>"
   }
   ```
-* `GET /hello/:name` -- this should return the following JSON:
+* `GET /hello/<name>` -- this should return the following JSON:
   ```
   {
     "message": "Hello there, <:name parameter here>"
   }
-  :eyes:Note that `:name` in the `GET` command above just a common way to
-  specify that `name` is a variable, but it is actually specified as `<name>`
-  in the URL.:eyes:
   ```
-  :eyes:Note that `:name` in the `GET` command above just a common way to
-  specify that `name` is a variable, but it is actually specified as `<name>`
-  in the flask route specification decorator.:eyes:
+  :eyes:Note that `<name>` in the `GET` command above just a common way to
+  specify that `name` is a variable placeholder, meaning the client can set it to something meaningful. 
 * `POST /distance` with data input of two 2D cartesian points that looks like:
   ```
   {
