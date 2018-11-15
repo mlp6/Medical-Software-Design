@@ -1,5 +1,5 @@
 # Heart Rate Sentinel Server
-This assignment will have you build a simple centralized heart rate sentinel server. This server will be built to receive POST requests from mock patient heart rate monitors that contain patient heart rate information over time. If a patient exhibits a tachycardic heart rate, the physician should receive an email warning them. This calculation should be based on age (more info [here](https://en.wikipedia.org/wiki/Tachycardia)). This can be sent using the free [Sendgrid API](https://sendgrid.com/) (there is also a [Sendgrid python package](https://github.com/sendgrid/sendgrid-python) that wraps the API).
+This assignment will have you build a simple centralized heart rate sentinel server. This server will be built to receive POST requests from mock patient heart rate monitors that contain patient heart rate information over time. If a patient exhibits a tachycardic heart rate, the physician should receive an email warning them. So if a new heart rate is received for a patient that is tachycardic, the email should be sent out at that time. This calculation should be based on age (more info [here](https://en.wikipedia.org/wiki/Tachycardia)). This can be sent using the free [Sendgrid API](https://sendgrid.com/) (there is also a [Sendgrid python package](https://github.com/sendgrid/sendgrid-python) that wraps the API).
 
 Name your repository: `heart_rate_sentinel_server`. Note: for this assignment, you do not have to use a database. You can choose to store patient information using in memory data structures like python lists and dictionaries. 
 
@@ -35,10 +35,15 @@ Your Flask web service should implement the following API routes:
   
 For this assignment, be sure to write modular code. This means your handler functions for routes should be calling other independent functions in different modules as frequently as possible. All of those other independant functions should be tested. You should also remember to validate user inputs that come from (`request.get_json()`) to ensure the right fields exist in the data and that they are the right type. You can write independant, testable `validate_heart_rate_request(r)` functions. You do not have to test the flask handler functions directly (the functions associated with the `@app.route` decorator), but all other functions should be tested.  
 
-__As always in this class, be sure to follow all best practice conventions (unit testing, git practices, Travis CI, testing, PEP8, etc)__
+## Submission Notes
+- __As always in this class, be sure to follow all best practice conventions (unit testing, git practices, Travis CI, testing, PEP8, docstrings, etc)__
+- Please git tag the final version of your repository as done previously in this class
+- Ensure your repository is called `heart_rate_sentinel_server`
+- __The SendGrid part of this assignment will not be worth the majority of points, so focus on that part after the rest of the functionality has been completed.__
+- Please deploy this on your VCM and submit the hostname and port that your server is running on to the Sakai assignment posting (`vcm-1000.vm.duke.edu:5000`). Remember to follow the emailed instructions about ensuring your server does not restart (there is a check box on the vcm control panel. It will ask you for a reason, just say you are running a web server assignment for BME590 Medical Software Design). __Please do this deployment step last, it is most important to complete the rest of the assignment first (that is where most of the points are)__.
 
 ## More information about SendGrid
-You need to create a free account at [sendgrid.com](https://sendgrid.com) and then [create an API key](https://sendgrid.com/docs/ui/account-and-settings/api-keys/#creating-an-api-key) which is a key that authenticates you to use the SendGrid API. Note that SendGrid has a nice [python API](https://github.com/sendgrid/sendgrid-python) that you can install using pip. In the example code shown there, you need to set the `SENDGRID_API_KEY` environment variable to your API key you created earlier.
+You need to create a free account at [sendgrid.com](https://sendgrid.com) and then [create an API key](https://sendgrid.com/docs/ui/account-and-settings/api-keys/#creating-an-api-key) which is a key that authenticates you to use the SendGrid API. Note that SendGrid has a nice [python API](https://github.com/sendgrid/sendgrid-python) that you can install using pip. In the example code shown there, you need to set the `SENDGRID_API_KEY` environment variable to your API key you created earlier. Try not to commit your key to github as that will expose it for others to use. 
 
 ### Special note for Mac users
 :eyes: Apparently python 3.6 for Mac does not come configured to use the standard root certificate authorities, so some folks may get a ssl error when using the SendGrid client. To fix this, run the following command:
