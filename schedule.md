@@ -164,7 +164,7 @@ progress, severe weather days, etc.  Please check back regularly.
 
 <tr>
 <td>Tues Nov 20</td>
-<td>TBD, final project work</td>
+<td>Final project assignment</td>
 <td></td>
 </tr>
 
@@ -193,7 +193,7 @@ progress, severe weather days, etc.  Please check back regularly.
 </tr>
 
 <tr>
-<td>Thurs Dec 06</td>
+<td>Thurs Dec 13</td>
 <td>Final project due</td>
 <td></td>
 </td>
