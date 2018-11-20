@@ -74,7 +74,7 @@ management.
 ## Deliverables
 * A detailed `README` describing the final performance and state of your
   project.
-* Recorded video demo of your image processor in action.
+* Recorded video demo of your data management tool in action.
 * All project code (in the form of a tagged GitHub repository named
   `bme590final`)
 * Link to deployed web service 
