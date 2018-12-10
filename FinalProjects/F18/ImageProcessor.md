@@ -1,6 +1,6 @@
 # Image Processor Final Project (Fall 2018)
 
-**Final Project DUE:** Thursday, Dec 13, 2018 05:00PM EST 
+**Final Project DUE:** Friday, Dec 14, 2018 11:59 PM EST 
 
 ## Overview
 The final project in this class will require your team to leverage the

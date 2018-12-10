@@ -3,7 +3,7 @@
 **Client:** Jason Luck, PhD (Injury Biomechanics Laboratory)  
 **Contact information:** jfl1@duke.edu and 919-660-5152 (ofc)
 
-**Final Project DUE:** Thursday, Dec 13, 2018 05:00PM EST                                                                                   
+**Final Project DUE:** Friday, Dec 14, 2018 11:59PM EST                                                                                   
 
 ## Background
 Mild traumatic brain injury (mTBI) or "concussive" injuries are a major
