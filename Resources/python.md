@@ -16,9 +16,10 @@
 * [Scientific Python Lectures](https://nbviewer.jupyter.org/github/dpsanders/scientific-python-lectures/tree/master/)
 * [Pandas Basics](http://earthpy.org/pandas-basics.html)
 
-## Matplotlib & Seaborn
+## Matplotlib, Seaborn, Bokeh/Chartify
 * [Beautiful Plots with Style](http://www.futurile.net/2016/02/27/matplotlib-beautiful-plots-with-style/)
 * [Matplotlib Lecture](https://nbviewer.jupyter.org/github/dpsanders/scientific-python-lectures/blob/master/Lecture-4-Matplotlib.ipynb)
 * [Seaborn Examples](https://seaborn.pydata.org/examples/index.html)
+* [Chartify](https://labs.spotify.com/2018/11/15/introducing-chartify-easier-chart-creation-in-python-for-data-scientists/)
 
 *Please note that Duke students have free access to the Lynda tutorials if you access them through the OIT software portal.*
