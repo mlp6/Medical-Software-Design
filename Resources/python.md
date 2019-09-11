@@ -5,6 +5,7 @@
 * [Intermediate Python](http://book.pythontips.com/en/latest/index.html)
 * [Python Essential Training (Lynda)](https://www.lynda.com/Python-tutorials/Python-Essential-Training/614299-2.html)
 * [Software Carpentry: Intermediate & Advanced Software](https://intermediate-and-advanced-software-carpentry.readthedocs.io/en/latest/index.html)
+* [Python for Undergraduate Engineers](https://pythonforundergradengineers.com/)
 
 ## NumPy <-> Matlab
 * [Matlab-NumPy](http://mathesaurus.sourceforge.net/matlab-numpy.html)
