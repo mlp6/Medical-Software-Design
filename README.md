@@ -21,6 +21,11 @@ examples and Jupyter notebooks in this repository.
 will require some tweaking, specifically the `print()` function calls and fancy
 string formatting.*
 
+A development version of this repository is here: https://gitlab.oit.duke.edu/mlp6/Medical-Software-Design
+
+Dr. David Ward has continued to teach and innovate on this class beyond the Fall 2018 semester: https://github.com/dward2/BME547
+
+
 [![License: CC BY-SA 4.0](https://licensebuttons.net/l/by-sa/4.0/80x15.png)](https://creativecommons.org/licenses/by-sa/4.0/)
 
 All material in this repository is covered by a Creative Commons
