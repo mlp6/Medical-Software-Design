@@ -1,0 +1,335 @@
+\input{preamble}
+
+\begin{document}
+
+\section*{Class Syllabus}
+
+\subsection*{Instructors}
+
+Dr. Mark Palmeri, M.D., Ph.D.\\
+\href{mailto:mark.palmeri@duke.edu}{\nolinkurl{mark.palmeri@duke.edu}}\\
+Office Hours: TBD (258 Hudson Hall Annex)
+
+Suyash Kumar, CTO \& Co-Founder of Gradient Health\\
+\href{mailto:suyash.kumar@duke.edu}{\nolinkurl{suyash.kumar@duke.edu}}\\
+Office Hours: Tuesday 16:20-17:20 (Teer 106 or at
+\href{http://chat.suyashkumar.com}{http://chat.suyashkumar.com})
+
+Dr. David Ward, Ph.D.\\
+\href{mailto:david.a.ward@duke.edu}{\nolinkurl{david.a.ward@duke.edu}}\\
+Office Hours: Thursday 21:00-22:00 (Google Hangouts)
+
+\emph{Google Hangout office hours can be joined by a URL that will be
+sent to the class via email.}
+
+\subsection*{Teaching Assistants}
+
+Ismael Perez\\
+\href{mailto:ismael.perez@duke.edu}{\nolinkurl{ismael.perez@duke.edu}}\\
+Office Hours: Tuesday 14:00-15:00 (Gross Hall 3rd Floor Cubicle 36)
+
+Tanvi Kamat Tarcar\\
+\href{mailto:tanvi.kamat.tarcar@duke.edu}{\nolinkurl{tanvi.kamat.tarcar@duke.edu}}\\
+Office Hours: Wednesday 11:20-12:20 (Teer Basement)
+
+\subsection*{Lecture}
+
+Tues/Thur 15:05-16:20\\
+Teer 106
+
+All lecture content will be outlined in \href{Lectures/}{Lectures}.
+
+\subsection*{Course Overview}
+Software plays a critical role in almost all medical devices, spanning device
+control, feedback and algorithmic processing. This course focuses on software
+design skills that are ubiquitous in the medical device industry, including
+software version control, unit testing, fault tolerance, continuous
+integration testing and documentation. Experience will be gained in Python
+and JavaScript (and potentially other languages).
+
+The course will be structured around a project to build an Internet-connected
+medical device that measures and processes a biosignal, sends it to a web
+server, and makes those data accessible to a web client / mobile application.
+This project will be broken into several smaller projects to develop software
+design fundamentals. All project-related work will be done in groups of 3
+students.
+
+\subsection*{Prerequisites}
+
+Basic familiarity with programming concepts (e.g., variables, loops,
+conditional statements).
+
+\subsection*{Course Objectives}
+
+\begin{itemize}
+\item
+  Software version control (\texttt{git}, GitHub)
+\item
+  Device programming fundamentals
+
+  \begin{itemize}
+  \item
+    Review of data types, variables, loops, conditional statements
+  \item
+    Python (v3.6): numpy, scipy, pandas, scikit
+  \item
+    Virtual environments \& dependency management (\texttt{pip},
+    \texttt{requirements.txt})
+  \item
+    Use of a programming IDE
+  \item
+    Debugging (\texttt{pudb})
+  \end{itemize}
+\item
+  Testing
+
+  \begin{itemize}
+  \item
+    Unit testing
+  \item
+    Functional / System testing
+  \item
+    Continuous integration (Travis CI)
+  \end{itemize}
+\item
+  Fault tolerance (raising exceptions)
+\item
+  Logging
+\item
+  Resource profiling (\texttt{cProfile})
+\item
+  Documentation
+
+  \begin{itemize}
+  \item
+    Docstrings
+  \item
+    Markdown
+  \item
+    Sphinx
+  \item
+    \href{https://readthedocs.org}{ReadTheDocs}
+  \end{itemize}
+\item
+  Working with data
+
+  \begin{itemize}
+  \item
+    Data Storage (Text, Binary, HDF5, MongoDB)
+  \item
+    Data Wrangling
+  \end{itemize}
+\item
+  Data Processing \& Display
+
+  \begin{itemize}
+  \item
+    Jupyter Notebooks
+  \item
+    Matplotlib / Seaborn
+  \item
+    Pandas (DataFrames)
+  \item
+    \href{https://scikit-image.org/}{scikit-image} \&
+    \href{https://scikit-learn.org/}{scikit-learn}
+  \end{itemize}
+\item
+  Define software specifications and constraints (Requests for Comments,
+  RFC)
+\item
+  Servers
+
+  \begin{itemize}
+  \item
+    Design \& Implementation of a biomedical web service (Python Flask)
+  \item
+    HTTP \& RESTful APIs
+  \item
+    Docker and dependency management intro
+  \end{itemize}
+\end{itemize}
+
+\subsection*{Attendance}
+Lecture attendance and participation is important because you will be working
+in small groups most of the semester. Participation in these in-class
+activities will count for 15\% of your class grade. It is very understandable
+that students will have to miss class for job interviews, personal reasons,
+illness, etc. Absences will be considered \textbackslash{}emph\{excused\} if
+they are communicated to your instructors at least 48 hours in advance
+(subject to instructor discretion as an excused absence) or, for illness,
+through submission of a
+\href{http://www.pratt.duke.edu/undergrad/policies/3531}{Short Term Illness
+Form (STIF)} \textbf{before} class. Unexcused absences will count against the
+participation component of your class grade.
+
+\subsection*{Textbooks \& Resources}
+There are no required textbooks for this class. A variety of online
+resources will be referenced throughout the semester.
+
+\begin{itemize}
+\item
+  \href{Resources/python.md}{Python Resources}
+\end{itemize}
+
+\subsection*{Project Details}
+Project details will be discussed in lecture throughout the semester.
+
+\subsection*{Grading}
+The course GitHub repository will host all \href{Assignments/}{Assignments}.
+Due dates--including those that change--will be announced in lecture and
+by Sakai announcements that will be emailed to the class.
+
+The following grading scheme is subject to change as the semester
+progresses:
+
+\begin{center}
+\begin{tabular}{ll}
+Participation	& 15\% \\
+Assignments	& 35\% \\
+Final project	& 50\% \\
+\end{tabular}
+\end{center}
+
+\subsection*{Class Schedule}
+The course schedule is very likely to change depending on progress
+throughout the semester. The updated \href{schedule.md}{schedule} will
+always be available in the GitHub course repository.
+
+\begin{longtable}[c]{|l|p{0.4\textwidth}|p{0.4\textwidth}|}
+
+  \hline 
+  
+  \textbf{Date} & \textbf{Lecture} & \textbf{Assignment} \\
+
+  \hline
+
+  Tues Aug 28 & Class Introduction, Objectives and Logistics & Setup Course Tools \& Git Fundamentals \\ \hline
+
+  Thurs Aug 30 & Git: Repo Setup, Cloning/Forking, Issues, Branching, Pushing/Pulling & \\ \hline
+  
+  Tues Sept 04 & Git Workflow & Getting Started with git \\ \hline
+  
+  Thurs Sept 06  & Python Virtual Environments & \\ \hline
+  
+  Tues Sept 11 & Python Fundamentals & \\ \hline
+  
+  Thurs Sept 13 & Class Cancelled (Severe Weather) & \\ \hline
+  
+  Tues Sept 18 & NO LECTURE (NC State Career Fair) & \\ \hline
+
+  Thurs Sept 20 & Unit Testing: (py.test) \& Continuous Integration (Travis CI) & \\ \hline
+  
+  Tues Sept 25 & Unit Testing: Comprehensive unit tests & Unit Testing \& Continuous Integration (Travis CI) \\ \hline
+  
+  Thurs Sept 27 & IEC 62304 &  \\ \hline
+  Tues Oct 02 & Unit Testing: Approximations, fixtures \& more; Docstrings & 
+  PythonFundamentals.ipynb (Sakai) \& IEC 62304 Assessment (Sakai) \\ \hline
+  
+  Thurs Oct 04 & \href{Resources/pycharm.md}{PyCharm}; Debugging; Property Decorators & \\ \hline
+  
+  Tues Oct 09 & Fall Break & \\ \hline
+  
+  Thurs Oct 11 & Functional Decomposition; Python: Data Structures & Heart Rate Monitor \\ \hline
+  
+  Tues Oct 16 & Exceptions \& Logging & \\ \hline
+  
+  Thurs Oct 18 & Dictionary Type, Classes, Property Decorators, Numpy Docs & \\ \hline
+  
+  Tues Oct 23 & HRM Assignment Work & \\ \hline
+  
+  Thurs Oct 25 & HRM Assignment Work & \\ \hline
+  
+  Tues Oct 30 & Intro to Web Services \& Cloud-connected Devices & \\ \hline
+  
+  Thurs Nov 01 & Python Flask, API design, virtual machines (Duke OIT VMs) & 
+  Call web services (SendGrid, Twilio, etc) \\ \hline
+  
+  Tues Nov 06 & Flask continued, deployment, production considerations & \\ \hline
+  Thurs Nov 08 & Introduction to Databases & Heart Rate Sentinel Server \\ \hline
+  Tues Nov 13 & Introduction to Security + Assignment Work & TBD \\ \hline
+  Thurs Nov 15 & Working Project Code & \\ \hline
+  Tues Nov 20 & Final project assignment & \\ \hline
+  Thurs Nov 22 & Thanksgiving & Refactor Project Code \\ \hline
+  Tues Nov 27 & Final project work \\ \hline
+  Thurs Nov 29 & LDOC! \\ \hline
+  Tues Dec 04 & Final project work & \\ \hline
+  Thurs Dec 13 & Final project due & \\ 
+
+  \hline
+
+\end{longtable}
+
+
+\subsection*{Distributed Version Control Software (git)}
+Software management is a ubiquitous tool in any engineering project, and this
+task becomes increasingly difficult during group development. Version control
+software has many benefits and uses in software development, including
+preservation of versions during the development process, the ability for
+multiple contributors and reviewers on a project, the ability to tag
+\emph{Releases} of code, and the ability to branch code into different
+functional branches. We will be using \href{https://github.com}{GitHub} to
+centrally host our git repositories. Specifically, we will be creating
+student teams in the \href{https://github.com/Duke-BME-Design}{Duke BME
+Design} group. Some guidelines for using your git repositories:
+
+\begin{itemize}
+\item
+  \emph{All} software additions, modifications, bug-fixes, etc. need to
+  be done in your repository.
+\item
+  The \emph{Issues} feature of your repository should be used as a "to
+  do" list of software-related items, including feature enhancements,
+  and bugs that are discovered.
+\item
+  There are several repository management models that we will review in
+  class, including branch-development models that need to be used
+  throughout the semester.
+\item
+  Instructors and teaching assistants will only review code that is
+  committed to your repository (no emailed code!).
+\item
+  All of the commits associated with your repository are logged with
+  your name and a timestamp, and these cannot be modified. Use
+  descriptive commit messages so that your group members, instructors,
+  and teaching assistants can figure out what you have done!! You should
+  not need to email group members when you have performed a commit; your
+  commit message(s) should speak for themselves.
+\item
+  Code milestones should be properly tagged.
+\item
+  Write software testing routines early in the development process so
+  that anyone in your group or an outsider reviewing your code can be
+  convinced that it is working as intended.
+\item
+  Modular, modular, modular.
+\item
+  Document!
+\item
+  Make commits small and logical; do them often!
+\end{itemize}
+
+We will review working with git repositories in lecture, and feedback on
+your software repository will be provided on a regular basis.
+
+\subsection*{Online Slack Channels}
+We have online help through the \href{https://dukecolab.slack.com/}{Duke
+Co-Lab Slack} team. We have started three specific channels for this
+class: \texttt{\#linux}, \texttt{\#git} \& \texttt{\#python}. Please add
+yourselves to these channels to get help from your instructors, your TAs
+and the Duke community!
+
+\subsection*{Duke Community Standard \& Academic Honor}
+Engineering is inherently a collaborative field, and in this class, you
+are encouraged to work collaboratively on your projects. The work that
+you submit must be the product of your and your group's effort and
+understanding. All resources developed by another person or company, and
+used in your project, must be properly recognized.
+
+All students are expected to adhere to all principles of the
+\href{http://www.integrity.duke.edu/standard.html}{Duke Community
+Standard}. Violations of the Duke Community Standard will be referred
+immediately to the Office of Student Conduct. Please do not hesitate to
+talk with your instructors about any situations involving academic
+honor, especially if it is ambiguous what should be done.
+
+\end{document}
