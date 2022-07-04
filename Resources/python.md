@@ -6,6 +6,8 @@
 * [Python Essential Training (Lynda)](https://www.lynda.com/Python-tutorials/Python-Essential-Training/614299-2.html)
 * [Software Carpentry: Intermediate & Advanced Software](https://intermediate-and-advanced-software-carpentry.readthedocs.io/en/latest/index.html)
 * [Python for Undergraduate Engineers](https://pythonforundergradengineers.com/)
+* [The Role of the Underscore](https://www.datacamp.com/tutorial/role-underscore-python)
+* [f-strings](https://pyformat.info/)
 
 ## NumPy <-> Matlab
 * [Matlab-NumPy](http://mathesaurus.sourceforge.net/matlab-numpy.html)
@@ -16,6 +18,7 @@
 * [SciPy Lectures](http://www.scipy-lectures.org/)
 * [Scientific Python Lectures](https://nbviewer.jupyter.org/github/dpsanders/scientific-python-lectures/tree/master/)
 * [Pandas Basics](http://earthpy.org/pandas-basics.html)
+* [Pandas Basics (Part 2)](http://earthpy.org/time_series_analysis_with_pandas_part_2.html)
 
 ## Matplotlib, Seaborn, Bokeh/Chartify
 * [Beautiful Plots with Style](http://www.futurile.net/2016/02/27/matplotlib-beautiful-plots-with-style/)

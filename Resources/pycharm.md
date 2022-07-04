@@ -9,9 +9,10 @@ we have been individually using to date, including
 * Docstring auto-generation
 * Syntax checking
 * Unit test running
-* Debugging
+* Debugging modes
 * Interactive python console and terminal
-* git version control
+* Version control (git)
+* Profiling
 
 For educational purposes, you can download the full-featured professional
 version of the program using your `.duke.edu` email address: https://www.jetbrains.com/student/
